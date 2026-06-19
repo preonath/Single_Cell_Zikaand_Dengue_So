@@ -1,0 +1,11 @@
+{
+  "temporal_done": true,
+  "peak_r": 0.4624,
+  "peak_tp": "48h",
+  "temporal_summary": {
+    "4h": 0.0547,
+    "12h": -0.1613,
+    "24h": 0.114,
+    "48h": 0.4624
+  }
+}

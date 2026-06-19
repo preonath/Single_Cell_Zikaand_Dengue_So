@@ -1,0 +1,5 @@
+GEO Accession,Reference,Cell/Tissue Type,Virus,Platform,Timepoints,MOI,N samples,Analysis role,DEGs
+GSE110496,Zanini et al. 2018,Huh7 (hepatoma cells),"DENV-2 (16681), ZIKV (PRVABC59)",10x Genomics scRNA-seq,"4h, 12h, 24h, 48h",DENV: MOI 1 & 3; ZIKV: MOI 1,12 pseudobulk (4 timepoints × 3 conditions),Discovery (primary),DENV=527; ZIKV=176
+GSE118305,Schmid et al. 2018,HMDM (human monocyte-derived macrophages),"ZIKV (FSSADE, Puerto Rico)",RNA-seq (HOMER FPKM),"12h, 18h, 24h",Not specified,"5 ZIKV-infected, 5 mock (24h)","Validation (macrophage, ZIKV)","580 (348 up, 232 down at 24h)"
+GSE94892,Cheung et al. 2017,PBMCs (human peripheral blood),DENV (patient PBMCs),Cufflinks RNA-seq,Cross-sectional,Patient sample (not applicable),DENV vs Control,"Validation (DENV, blood cells)","116 (91 up, 25 down)"
+GSE78711,Onorati et al. 2016,Neural progenitor cells (hNPCs),ZIKV (MR766),RNA-seq (pre-computed FC),72h post-infection,MOI 0.1,ZIKV vs Mock,"Validation (ZIKV, neural context)","1,197 (403 up, 794 down)"

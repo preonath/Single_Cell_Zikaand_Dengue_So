@@ -1,0 +1,171 @@
+gene,role,virus,pathway
+ANKLE2,Proviral,ZIKV,ER Remodeling / Replication Organelle Formation
+AP2S1,Proviral,ZIKV,Endocytosis (clathrin-mediated)
+APOBEC3A,MediumConfidence,ZIKV,Cytidine deamination / innate immunity
+APOBEC3G,MediumConfidence,DENV ZIKV,Cytidine deamination
+ARF4,Proviral,DENV,Virion Assembly & Secretion (Golgi/vesicular trafficking)
+ARF4,Proviral,ZIKV,Virion Assembly & Secretion (Golgi/vesicular trafficking)
+ARF5,Proviral,ZIKV,Virion Assembly & Secretion (Golgi/vesicular trafficking)
+ATG5,Proviral,DENV,Autophagy
+ATL1,Proviral,ZIKV,ER Remodeling / Replication Organelle Formation
+ATL2,Proviral,DENV,ER Remodeling / Replication Organelle Formation
+ATL2,Proviral,ZIKV,ER Remodeling / Replication Organelle Formation
+ATL3,Proviral,ZIKV,ER Remodeling / Virion Assembly & Secretion
+ATP6V0B,Proviral,DENV,Endocytosis (Vacuolar Acidification)
+ATP6V0B,Proviral,ZIKV,Endocytosis (Vacuolar Acidification)
+ATP6V1C1,Proviral,DENV,Endocytosis (Vacuolar Acidification)
+ATP6V1C1,Proviral,ZIKV,Endocytosis (Vacuolar Acidification)
+ATP6V1F,Proviral,DENV,Endocytosis (Vacuolar Acidification)
+ATP6V1F,Proviral,ZIKV,Endocytosis (Vacuolar Acidification)
+AXL,MediumConfidence,DENV,Entry / Attachment
+AXL,Proviral,ZIKV,Entry / Attachment; Innate Immune Suppression
+B3GALT6,Proviral,ZIKV,Entry / Attachment (Heparan Sulfate Biosynthesis)
+BECN1,Proviral,DENV,Autophagy
+BSG,Proviral,ZIKV,ER Remodeling / Cell Signaling
+BST2,Antiviral,DENV,Innate Immunity / Viral Egress Restriction
+BST2,Antiviral,ZIKV,Innate Immunity / Viral Egress Restriction
+CD300A,Proviral,ZIKV,Entry / Attachment (Phosphatidylserine receptor)
+CEND1,Proviral,ZIKV,Neurodevelopment
+CGAS,Antiviral,DENV,Innate Immunity / cGAS–STING Pathway
+CGAS,Antiviral,ZIKV,Innate Immunity / cGAS–STING Pathway
+CHP1,Proviral,ZIKV,Calcium Signaling
+CLN6,Proviral,ZIKV,ER/Lysosomal Function
+CNOT1,MediumConfidence,DENV ZIKV,CCR4‑NOT deadenylase (viral RNA decay)
+DC-SIGN,Proviral,DENV,Entry / Attachment
+DC-SIGN,MediumConfidence,ZIKV,Entry / Attachment
+DDOST,Proviral,DENV,ER Protein Biogenesis / N-Glycosylation
+DDOST,Proviral,ZIKV,ER Protein Biogenesis / N-Glycosylation
+DDX6,MediumConfidence,DENV ZIKV,P‑body component; viral RNA translation/replication
+DGAT2,Proviral,DENV,Lipid Metabolism (Lipid Droplet Biogenesis)
+DGAT2,Proviral,ZIKV,Lipid Metabolism (Lipid Droplet Biogenesis)
+DHCR7,Proviral,ZIKV,Lipid Metabolism (Cholesterol Biosynthesis) / Innate Immune Evasion
+DNAJC1,Proviral,ZIKV,ER Proteostasis (HSP70 co-chaperone)
+EGFR,MediumConfidence,DENV,Entry / Signal Transduction
+EMC1,Proviral,DENV,ER Protein Biogenesis / Polyprotein Processing
+EMC1,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Processing
+EMC2,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Processing
+EMC3,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Processing
+EMC4,Proviral,DENV,Entry / Membrane Fusion (endosomal)
+EMC4,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Processing
+EMC5,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Processing
+EMC6,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Processing
+EMC7,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Processing
+EXT1,Proviral,DENV,Entry / Attachment (Heparan Sulfate Biosynthesis)
+EXT1,Proviral,ZIKV,Entry / Attachment (Heparan Sulfate Biosynthesis)
+EXTL3,Proviral,ZIKV,Entry / Attachment (Heparan Sulfate Biosynthesis)
+FAM134B,Antiviral,DENV,Autophagy / ER-phagy
+FAM134B,Antiviral,ZIKV,Autophagy / ER-phagy (Reticulophagy)
+FASN,Proviral,DENV,Lipid Metabolism
+FASN,Proviral,ZIKV,Lipid Metabolism
+FATP2,Proviral,ZIKV,Lipid Metabolism
+GAS6,Proviral,ZIKV,Entry / Attachment
+HAVCR1,Proviral,DENV,Entry / Attachment (Phosphatidylserine receptor)
+HAVCR1,Proviral,ZIKV,Entry / Attachment
+HELZ2,Antiviral,ZIKV,Innate Immunity / ISG Effector
+HSPA1A,MediumConfidence,DENV,Entry / Attachment
+HSPA5,MediumConfidence,DENV,Entry / Attachment; ER Proteostasis
+HSPA5,MediumConfidence,ZIKV,ER Proteostasis / Translation
+HSPA8,MediumConfidence,DENV,Entry / Attachment
+IFI35,MediumConfidence,ZIKV,Innate Immunity / ISG Effector
+IFI44,Antiviral,ZIKV,Innate Immunity / ISG Effector
+IFI6,Antiviral,DENV,Innate Immunity / ER Replication Organelle Restriction
+IFI6,Antiviral,ZIKV,Innate Immunity / ER Replication Organelle Restriction
+IFIT2,MediumConfidence,ZIKV,Innate Immunity / ISG Effector (translation inhibition)
+IFITM1,Antiviral,DENV,Innate Immunity / ISG Effector (membrane fusion block)
+IFITM1,Antiviral,ZIKV,Innate Immunity / ISG Effector (membrane fusion block)
+IFITM3,Antiviral,DENV,Innate Immunity / ISG Effector (membrane fusion block)
+IFITM3,Antiviral,ZIKV,Innate Immunity / ISG Effector (membrane fusion block)
+IFNL2,Antiviral,ZIKV,Interferon Signaling (Type III IFN)
+IRF1,Antiviral,DENV,Interferon Signaling / IFN Transcription
+IRF1,Antiviral,ZIKV,Interferon Signaling / IFN Transcription
+IRF3,Antiviral,DENV,Interferon Signaling / IFN Transcription
+IRF3,Antiviral,ZIKV,Interferon Signaling / IFN Transcription
+ISG15,Proviral,ZIKV,Innate Immune Suppression (context: hNPC)
+ISG15,Antiviral,ZIKV,Innate Immunity / ISG Effector (protein ISGylation)
+ISG20,Antiviral,ZIKV,Innate Immunity / ISG Effector (RNA exonuclease)
+ITGB5,Proviral,ZIKV,Entry / Attachment
+KPNA6,Proviral,ZIKV,RNA Replication / Nucleocytoplasmic Transport
+LC3C,MediumConfidence,ZIKV,Xenophagy receptor
+LY6E,MediumConfidence,ZIKV,ISG effector; entry modulation (cell‑type dependent)
+MAVS,Antiviral,DENV,Innate Immunity / RLR–MAVS Signaling
+MAVS,Antiviral,ZIKV,Innate Immunity / RLR–MAVS Signaling
+MDA5,Antiviral,DENV,Innate Immunity / RLR Pathway
+MDA5,Antiviral,ZIKV,Innate Immunity / RIG-I–MDA5 (RLR) Pathway
+MOV10,MediumConfidence,ZIKV DENV,RNA helicase / viral RNA degradation
+MSI1,Proviral,ZIKV,RNA Replication / Neurodevelopment
+MX1,Antiviral,ZIKV,Innate Immunity / ISG Effector (GTPase-mediated restriction)
+NCAM1,Proviral,ZIKV,Entry / Attachment
+NCL,MediumConfidence,DENV,Nucleolar protein; capsid/NS5 interaction
+NDST1,Proviral,DENV,Entry / Attachment (Heparan Sulfate Biosynthesis)
+NDST1,Proviral,ZIKV,Entry / Attachment (Heparan Sulfate Biosynthesis)
+NOLC1,MediumConfidence,DENV,Nucleolar scaffolding/ribosome biogenesis; facilitates NS5 nucleolar trafficking
+NPM1,MediumConfidence,DENV,Nucleolar shuttling; NS5 interaction
+OAS2,Antiviral,DENV,Innate Immunity / OAS–RNase L Pathway
+OAS2,Antiviral,ZIKV,Innate Immunity / OAS–RNase L Pathway
+OAS3,Antiviral,DENV,Innate Immunity / OAS–RNase L Pathway
+OAS3,Antiviral,ZIKV,Innate Immunity / OAS–RNase L Pathway
+P53,Antiviral,ZIKV,Apoptosis / DNA Damage Response
+PAF1,Antiviral,DENV,Interferon Signaling / ISG Transcription (PAF1C complex)
+PAF1,Antiviral,ZIKV,Interferon Signaling / ISG Transcription (PAF1C complex)
+PIM1,Proviral,ZIKV,Protein Phosphorylation / Virion Maturation
+PUM1,MediumConfidence,ZIKV,RNA‑binding restriction (viral RNA stability)
+PUM2,MediumConfidence,ZIKV (likely DENV),RNA‑binding restriction (viral RNA stability)
+RAB4A,Proviral,ZIKV,Endocytosis / Intracellular Trafficking
+RAB5C,Proviral,DENV,Endocytosis / Intracellular Trafficking
+RAB5C,Proviral,ZIKV,Endocytosis / Intracellular Trafficking
+RABGEF1,Proviral,DENV,Endocytosis / Intracellular Trafficking
+RABGEF1,Proviral,ZIKV,Endocytosis / Intracellular Trafficking
+RACK1,Proviral,DENV,ER Remodeling / Replication Organelle Formation
+RACK1,Proviral,ZIKV,ER Remodeling / Replication Organelle Formation
+RBFOX2,Proviral,ZIKV,RNA Processing / Splicing
+RHOV,Proviral,ZIKV,Cytoskeletal Remodeling / Entry
+RIG-I,Antiviral,DENV,Innate Immunity / RLR Pathway
+RIG-I,Antiviral,ZIKV,Innate Immunity / RIG-I–MDA5 (RLR) Pathway
+RNASEK,Proviral,ZIKV,Endocytosis (V-ATPase assembly)
+RPN1,Proviral,ZIKV,ER Protein Biogenesis / N-Glycosylation
+RPN2,Proviral,ZIKV,ER Protein Biogenesis / N-Glycosylation
+RRBP1,Proviral,ZIKV,RNA Replication / ER-bound RNA Processing
+RSAD2,Antiviral,DENV,Innate Immunity / ISG Effector
+RSAD2,Antiviral,ZIKV,Innate Immunity / ISG Effector (NS3 degradation)
+SEC61,Proviral,DENV,ER Protein Biogenesis / Polyprotein Translocation
+SEC61,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Translocation
+SEC63,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Translocation
+SHFL,Antiviral,DENV,Innate Immunity / ISG Effector (RNA translation block)
+SHFL,Antiviral,ZIKV,Innate Immunity / ISG Effector (RNA translation block)
+SLC35B2,Proviral,ZIKV,Entry / Attachment (Heparan Sulfate Biosynthesis)
+SLC35B3,Proviral,ZIKV,Entry / Attachment (Heparan Sulfate Biosynthesis)
+SOCS3,Proviral,ZIKV,Innate Immune Suppression (JAK-STAT inhibition)
+SOX2,Proviral,ZIKV,Stem Cell / Entry (AXL-independent)
+SPCS1,Proviral,DENV,ER Protein Biogenesis / prM·E Processing
+SPCS1,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Processing
+SPTLC1,Proviral,DENV,Lipid Metabolism (Sphingolipid Biosynthesis)
+SPTLC1,Proviral,ZIKV,Lipid Metabolism (Sphingolipid Biosynthesis)
+SQSTM1,MediumConfidence,DENV ZIKV,Selective autophagy receptor; targets ubiquitinated viral capsid/NS3 for degradation
+SSR2,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Translocation
+SSR3,Proviral,ZIKV,ER Protein Biogenesis / Polyprotein Translocation
+STAM,Proviral,ZIKV,Endocytosis / Intracellular Trafficking
+STAT2,Antiviral,DENV,Interferon Signaling / JAK-STAT Pathway
+STAT2,Antiviral,ZIKV,Interferon Signaling / JAK-STAT Pathway
+STING,Antiviral,DENV,Innate Immunity / cGAS–STING Pathway
+STING,Antiviral,ZIKV,Innate Immunity / cGAS–STING Pathway
+STT3A,Proviral,DENV,ER Protein Biogenesis / N-Glycosylation
+STT3A,Proviral,ZIKV,ER Protein Biogenesis / N-Glycosylation
+STT3B,Proviral,DENV,ER Protein Biogenesis / N-Glycosylation
+STT3B,Proviral,ZIKV,ER Protein Biogenesis / N-Glycosylation
+SULF1,Proviral,ZIKV,Entry / Attachment (Heparan Sulfate Biosynthesis)
+TBK1,Antiviral,DENV,Interferon Signaling / RLR Signaling
+TBK1,Antiviral,ZIKV,Interferon Signaling / RLR Signaling
+TMEM41B,Proviral,DENV,ER Remodeling / Replication Organelle Formation
+TMEM41B,Proviral,ZIKV,ER Remodeling / Replication Organelle Formation
+TRIM25,MediumConfidence,ZIKV,RIG‑I ubiquitination / innate immunity
+TRIM56,Antiviral,DENV,Innate Immunity / ISG Effector (E3 ubiquitin ligase)
+TRIM56,Antiviral,ZIKV,Innate Immunity / ISG Effector (E3 ubiquitin ligase)
+TRIM7,MediumConfidence,ZIKV,E3 ligase (K63‑linked ubiquitination of viral E protein) facilitates viral entry
+UPF1,MediumConfidence,ZIKV DENV,Nonsense‑mediated decay (viral RNA turnover)
+VIM,Proviral,ZIKV,ER Remodeling / Replication Complex Scaffold
+VMA21,Proviral,ZIKV,Endocytosis (V-ATPase assembly)
+VMP1,Proviral,DENV,ER Remodeling / Replication Organelle Formation
+VMP1,Proviral,ZIKV,ER Remodeling / Replication Organelle Formation
+WWTR1,Proviral,ZIKV,Hippo Signaling / Entry
+ZCCHC6,Antiviral,ZIKV,Innate Immunity / ISG Effector
+ZSWIM8,Proviral,ZIKV,Interferon Signaling (CRL3 substrate receptor)

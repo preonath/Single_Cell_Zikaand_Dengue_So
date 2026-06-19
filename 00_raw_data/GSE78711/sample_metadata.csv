@@ -1,0 +1,9 @@
+sample_id,title,source,organism,platform,cell_type,infection_status,condition
+GSM2073121,Mock1-1,human Neural Progenitor cells,Homo sapiens,GPL15520,Neural Progenitor cells,mock infected,Unknown
+GSM2073122,Mock2-1,human Neural Progenitor cells,Homo sapiens,GPL15520,Neural Progenitor cells,mock infected,Unknown
+GSM2073123,ZIKV1-1,human Neural Progenitor cells,Homo sapiens,GPL15520,Neural Progenitor cells,Zika infected,Infected
+GSM2073124,ZIKV2-1,human Neural Progenitor cells,Homo sapiens,GPL15520,Neural Progenitor cells,Zika infected,Infected
+GSM2075585,Mock1-2,human Neural Progenitor cells,Homo sapiens,GPL18573,Neural Progenitor cells,mock infected,Unknown
+GSM2075586,Mock2-2,human Neural Progenitor cells,Homo sapiens,GPL18573,Neural Progenitor cells,mock infected,Unknown
+GSM2075587,ZIKV1-2,human Neural Progenitor cells,Homo sapiens,GPL18573,Neural Progenitor cells,Zika infected,Infected
+GSM2075588,ZIKV2-2,human Neural Progenitor cells,Homo sapiens,GPL18573,Neural Progenitor cells,Zika infected,Infected

@@ -1,0 +1,134 @@
+[2026-06-13 01:13:35] ============================================================
+[2026-06-13 01:13:35] Step 02: Load → QC → Normalize → UMAP
+[2026-06-13 01:13:35] ============================================================
+[2026-06-13 01:13:36] Metadata parsed: 2260 cells with matching TSV files
+[2026-06-13 01:13:36]   Condition counts: {'DENV': 1021, 'Control': 745, 'ZIKV': 494}
+[2026-06-13 01:13:36]   Timepoint counts: {'48h': 575, '24h': 569, '12h': 565, '4h': 551}
+[2026-06-13 01:13:36] Loading 2260 TSV files ...
+[2026-06-13 01:13:40]   Loaded 200/2260 cells ...
+[2026-06-13 01:13:46]   Loaded 400/2260 cells ...
+[2026-06-13 01:13:51]   Loaded 600/2260 cells ...
+[2026-06-13 01:13:56]   Loaded 800/2260 cells ...
+[2026-06-13 01:14:01]   Loaded 1000/2260 cells ...
+[2026-06-13 01:14:06]   Loaded 1200/2260 cells ...
+[2026-06-13 01:14:11]   Loaded 1400/2260 cells ...
+[2026-06-13 01:14:16]   Loaded 1600/2260 cells ...
+[2026-06-13 01:14:21]   Loaded 1800/2260 cells ...
+[2026-06-13 01:14:26]   Loaded 2000/2260 cells ...
+[2026-06-13 01:14:31]   Loaded 2200/2260 cells ...
+[2026-06-13 01:14:32] Building count matrix ...
+[2026-06-13 01:14:33] AnnData created: 2260 cells × 60721 genes
+[2026-06-13 01:14:50] ============================================================
+[2026-06-13 01:14:50] Step 02: Load → QC → Normalize → UMAP
+[2026-06-13 01:14:50] ============================================================
+[2026-06-13 01:14:50] Metadata parsed: 2260 cells with matching TSV files
+[2026-06-13 01:14:50]   Condition counts: {'DENV': 1021, 'Control': 745, 'ZIKV': 494}
+[2026-06-13 01:14:50]   Timepoint counts: {'48h': 575, '24h': 569, '12h': 565, '4h': 551}
+[2026-06-13 01:14:50] Loading 2260 TSV files ...
+[2026-06-13 01:14:54]   Loaded 200/2260 cells ...
+[2026-06-13 01:14:59]   Loaded 400/2260 cells ...
+[2026-06-13 01:15:04]   Loaded 600/2260 cells ...
+[2026-06-13 01:15:08]   Loaded 800/2260 cells ...
+[2026-06-13 01:15:13]   Loaded 1000/2260 cells ...
+[2026-06-13 01:15:18]   Loaded 1200/2260 cells ...
+[2026-06-13 01:15:22]   Loaded 1400/2260 cells ...
+[2026-06-13 01:15:27]   Loaded 1600/2260 cells ...
+[2026-06-13 01:15:31]   Loaded 1800/2260 cells ...
+[2026-06-13 01:15:36]   Loaded 2000/2260 cells ...
+[2026-06-13 01:15:40]   Loaded 2200/2260 cells ...
+[2026-06-13 01:15:42] Building count matrix ...
+[2026-06-13 01:15:43] AnnData created: 2260 cells × 60721 genes
+[2026-06-13 01:15:43] ✓ Raw AnnData saved → adata_raw.h5ad
+[2026-06-13 01:15:43] Calculating QC metrics ...
+[2026-06-13 01:15:43]   Median genes per cell : 6738
+[2026-06-13 01:15:43]   Median counts per cell: 491150
+[2026-06-13 01:15:43]   Median MT%            : 0.0%
+[2026-06-13 01:15:44]   Pre-filter violin saved
+[2026-06-13 01:15:44] QC filtering: 2260 → 2075 cells (removed 185, 8.2%)
+[2026-06-13 01:15:44]   Cells per condition after filter:
+[2026-06-13 01:15:44]     DENV: 929
+[2026-06-13 01:15:44]     Control: 699
+[2026-06-13 01:15:44]     ZIKV: 447
+[2026-06-13 01:15:44]   Cells per timepoint after filter:
+[2026-06-13 01:15:44]     4h: 492
+[2026-06-13 01:15:44]     12h: 517
+[2026-06-13 01:15:44]     24h: 555
+[2026-06-13 01:15:44]     48h: 511
+[2026-06-13 01:15:44]   Cross-tab saved → cell_count_per_condition_timepoint.csv
+[2026-06-13 01:15:44] 
+timepoint   4h  12h  24h  48h
+condition                    
+Control    164  176  177  182
+DENV       228  231  261  209
+ZIKV       100  110  117  120
+
+[2026-06-13 01:15:44]   Post-filter violin saved
+[2026-06-13 01:15:44] ✓ Filtered AnnData saved → adata_filtered.h5ad
+[2026-06-13 01:15:44] Normalizing ...
+[2026-06-13 01:15:46] Finding highly variable genes (HVGs) ...
+[2026-06-13 01:15:47]   HVGs selected: 3000
+[2026-06-13 01:15:47]   (Note: genes are Ensembl IDs — ISG check after annotation)
+[2026-06-13 01:15:47] Scaling (regress out MT%) ...
+[2026-06-13 01:16:29] Running PCA (50 components) ...
+[2026-06-13 01:16:30]   Elbow plot saved
+[2026-06-13 01:16:30] Using 20 PCs for UMAP ...
+[2026-06-13 01:16:30] Computing neighbors + UMAP ...
+[2026-06-13 01:16:37] UMAP done.
+[2026-06-13 01:16:38] ✓ Processed AnnData saved → adata_processed.h5ad
+[2026-06-13 01:16:38] Generating UMAP figures ...
+[2026-06-13 01:16:39]   Condition+Timepoint UMAP saved
+[2026-06-13 01:16:39]   Viral load UMAP saved
+[2026-06-13 01:16:40]   Facet UMAP saved
+[2026-06-13 01:16:40] 
+============================================================
+[2026-06-13 01:16:40] STEP 02 COMPLETE — Summary:
+[2026-06-13 01:16:40]   Final cells     : 2075
+[2026-06-13 01:16:40]   Final genes     : 60721
+[2026-06-13 01:16:40]   Conditions      : {'DENV': 929, 'Control': 699, 'ZIKV': 447}
+[2026-06-13 01:16:40]   Figures saved in: /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/supplementary
+[2026-06-13 01:16:40]   AnnData files   : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/01_processed_data/anndata_objects
+[2026-06-13 01:16:40] 
+Next: run step03_pseudobulk_deg.py
+[2026-06-13 01:16:40] ============================================================
+[2026-06-19 14:07:22] ============================================================
+[2026-06-19 14:07:22] Step 02: Load → QC → Normalize → UMAP
+[2026-06-19 14:07:22] ============================================================
+[2026-06-19 14:07:22] ✓ Raw AnnData exists — loading from adata_raw.h5ad
+[2026-06-19 14:07:22]   Shape: (2260, 60721)
+[2026-06-19 14:07:22] ✓ Filtered AnnData exists — loading from adata_filtered.h5ad
+[2026-06-19 14:07:22]   Shape: (2075, 60721)
+[2026-06-19 14:07:22] ✓ Processed AnnData exists — loading from adata_processed.h5ad
+[2026-06-19 14:07:22]   Shape: (2075, 60721)
+[2026-06-19 14:07:22] ✓ Figures already generated — skipping
+[2026-06-19 14:07:22] 
+============================================================
+[2026-06-19 14:07:22] STEP 02 COMPLETE — Summary:
+[2026-06-19 14:07:22]   Final cells     : 2075
+[2026-06-19 14:07:22]   Final genes     : 60721
+[2026-06-19 14:07:22]   Conditions      : {'DENV': 929, 'Control': 699, 'ZIKV': 447}
+[2026-06-19 14:07:22]   Figures saved in: /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/supplementary
+[2026-06-19 14:07:22]   AnnData files   : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/01_processed_data/anndata_objects
+[2026-06-19 14:07:22] 
+Next: run step03_pseudobulk_deg.py
+[2026-06-19 14:07:22] ============================================================
+[2026-06-19 14:07:22] ============================================================
+[2026-06-19 14:07:22] Step 02: Load → QC → Normalize → UMAP
+[2026-06-19 14:07:22] ============================================================
+[2026-06-19 14:07:22] ✓ Raw AnnData exists — loading from adata_raw.h5ad
+[2026-06-19 14:07:22]   Shape: (2260, 60721)
+[2026-06-19 14:07:22] ✓ Filtered AnnData exists — loading from adata_filtered.h5ad
+[2026-06-19 14:07:22]   Shape: (2075, 60721)
+[2026-06-19 14:07:22] ✓ Processed AnnData exists — loading from adata_processed.h5ad
+[2026-06-19 14:07:23]   Shape: (2075, 60721)
+[2026-06-19 14:07:23] ✓ Figures already generated — skipping
+[2026-06-19 14:07:23] 
+============================================================
+[2026-06-19 14:07:23] STEP 02 COMPLETE — Summary:
+[2026-06-19 14:07:23]   Final cells     : 2075
+[2026-06-19 14:07:23]   Final genes     : 60721
+[2026-06-19 14:07:23]   Conditions      : {'DENV': 929, 'Control': 699, 'ZIKV': 447}
+[2026-06-19 14:07:23]   Figures saved in: /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/supplementary
+[2026-06-19 14:07:23]   AnnData files   : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/01_processed_data/anndata_objects
+[2026-06-19 14:07:23] 
+Next: run step03_pseudobulk_deg.py
+[2026-06-19 14:07:23] ============================================================

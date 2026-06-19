@@ -1,0 +1,7 @@
+finding,significance,genes
+15 shared upregulated genes,Novel; not in any known host factor list,"BIRC3, SIRT4, CCL4, CXCL1, CREBRF, DUSP1, INHBE, RND1, TSPYL2, ..."
+Temporal convergence peaks at 48h,r=0.462 (GATE G3 PASS at 48h),All 15 shared genes
+CREBRF is miRNA hub,Targeted by 10 different 55-set miRNAs,"CREBRF (+ SIRT4, TSPYL2)"
+NPC validation (GATE G6 PASS),4 genes replicated in ZIKV NPCs; p=1.18e-4,"CREBRF, INHBE, RND1, TSPYL2"
+Pathway: NF-κB / TNF-α / JAK-STAT,Consistent with shared innate immune response,"BIRC3, CXCL1, CCL4, DUSP1"
+GATE G4 NOT passed,Shared genes are a novel discovery beyond known lists,All 15 (none in proviral/antiviral literature)

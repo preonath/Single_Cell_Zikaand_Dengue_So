@@ -1,0 +1,13 @@
+sample,condition,timepoint,n_cells
+Control_4h,Control,4h,164
+Control_12h,Control,12h,176
+Control_24h,Control,24h,177
+Control_48h,Control,48h,182
+DENV_4h,DENV,4h,108
+DENV_12h,DENV,12h,108
+DENV_24h,DENV,24h,120
+DENV_48h,DENV,48h,121
+ZIKV_4h,ZIKV,4h,100
+ZIKV_12h,ZIKV,12h,110
+ZIKV_24h,ZIKV,24h,117
+ZIKV_48h,ZIKV,48h,120

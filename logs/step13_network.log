@@ -1,0 +1,43 @@
+[2026-06-13 20:45:51] ============================================================
+[2026-06-13 20:45:51] Step 13: PPI Network Analysis (Phase 9)
+[2026-06-13 20:45:51] ============================================================
+[2026-06-13 20:45:51] Shared upregulated genes (15): ['BIRC3', 'SIRT4', 'VNN3P', 'PLA2G4C', 'LPXN', 'TSPAN1', 'DUSP1', 'INHBE', 'CFAP251', 'CD200R1', 'CXCL1', 'CREBRF', 'RND1', 'TSPYL2', 'CCL4']
+[2026-06-13 20:45:51] 
+Querying STRINGdb API ...
+[2026-06-13 20:45:52]   Interactions: 2
+[2026-06-13 20:45:52]   Edges saved → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase9_network/network_edges.csv
+[2026-06-13 20:45:52] 
+Building NetworkX graph ...
+[2026-06-13 20:45:52]   Nodes: 15, Edges: 2
+[2026-06-13 20:45:52] 
+Computing network statistics ...
+[2026-06-13 20:45:52]   Node stats saved → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase9_network/network_node_attributes.csv
+[2026-06-13 20:45:52] 
+  Top hub genes by hub score:
+[2026-06-13 20:45:52]   Gene           Degree  Betweenness    Hub Score  miRNA Hub  Validated
+[2026-06-13 20:45:52]   --------------------------------------------------------------------
+[2026-06-13 20:45:52]   CXCL1               2       0.0110       0.0220                      
+[2026-06-13 20:45:52]   SIRT4               0       0.0000       0.0000        YES           
+[2026-06-13 20:45:52]   BIRC3               1       0.0000       0.0000                      
+[2026-06-13 20:45:52]   PLA2G4C             0       0.0000       0.0000                      
+[2026-06-13 20:45:52]   LPXN                0       0.0000       0.0000                      
+[2026-06-13 20:45:52]   TSPAN1              0       0.0000       0.0000                      
+[2026-06-13 20:45:52]   VNN3P               0       0.0000       0.0000                      
+[2026-06-13 20:45:52]   DUSP1               0       0.0000       0.0000                      
+[2026-06-13 20:45:52]   INHBE               0       0.0000       0.0000                   YES
+[2026-06-13 20:45:52]   CFAP251             0       0.0000       0.0000                      
+[2026-06-13 20:45:52] 
+  Network statistics: {'n_nodes': 15, 'n_edges': 2, 'density': 0.019, 'avg_degree': np.float64(0.267), 'avg_clustering': np.float64(0.0), 'n_connected_components': 13, 'top_hub_gene': 'CXCL1'}
+[2026-06-13 20:45:52] 
+Generating network figure ...
+[2026-06-13 20:45:52] Figure saved → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main/Figure_Network_Analysis.png
+[2026-06-13 20:45:52] 
+============================================================
+[2026-06-13 20:45:52] STEP 13 COMPLETE — Network Analysis Summary
+[2026-06-13 20:45:52] ============================================================
+[2026-06-13 20:45:52]   Nodes: 15, Edges: 2
+[2026-06-13 20:45:52]   Top hub gene: CXCL1
+[2026-06-13 20:45:52]   NPC-validated genes in network: ['CREBRF', 'INHBE', 'RND1', 'TSPYL2']
+[2026-06-13 20:45:52]   miRNA hub genes in network: ['CREBRF', 'SIRT4', 'TSPYL2']
+[2026-06-13 20:45:52] 
+Next: run step14_final_summary_figures.py

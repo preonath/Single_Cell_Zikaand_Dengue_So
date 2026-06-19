@@ -1,0 +1,209 @@
+Database,Term,Gene Count,Odds Ratio,P.value,Adj. P-value,Genes
+MSigDB Hallmarks,TNF-alpha Signaling via NF-kB,4,36.71,1.22e-05,0.000,DUSP1;CCL4;CXCL1;BIRC3
+GO:BP,Cellular Response To Chemokine (GO:1990869),3,88.97,1.08e-05,0.002,DUSP1;CCL4;CXCL1
+GO:BP,Negative Regulation Of Cell Adhesion (GO:0007162),3,72.16,1.97e-05,0.002,DUSP1;LPXN;RND1
+GO:BP,Negative Regulation Of Cellular Process (GO:0048523),5,18.28,3.29e-05,0.002,TSPYL2;DUSP1;LPXN;CXCL1;RND1
+KEGG,NF-kappa B signaling pathway,3,49.22,5.94e-05,0.003,CCL4;CXCL1;BIRC3
+GO:BP,Regulation Of Cell Adhesion (GO:0030155),3,35.18,1.56e-04,0.008,DUSP1;LPXN;RND1
+MSigDB Hallmarks,IL-6/JAK/STAT3 Signaling,2,36.02,1.89e-03,0.010,CXCL1;INHBE
+GO:BP,Cytokine-Mediated Signaling Pathway (GO:0019221),3,19.42,8.51e-04,0.025,CCL4;CXCL1;BIRC3
+GO:BP,Chemokine-Mediated Signaling Pathway (GO:0070098),2,55.75,8.18e-04,0.025,CCL4;CXCL1
+GO:BP,Inflammatory Response (GO:0006954),3,21.19,6.65e-04,0.025,PLA2G4C;CCL4;CXCL1
+GO:BP,Neutrophil Chemotaxis (GO:0030593),2,45.06,1.23e-03,0.030,CCL4;CXCL1
+GO:BP,Granulocyte Chemotaxis (GO:0071621),2,43.15,1.34e-03,0.030,CCL4;CXCL1
+GO:BP,Neutrophil Migration (GO:1990266),2,40.84,1.49e-03,0.030,CCL4;CXCL1
+Reactome,Interleukin-10 Signaling,2,69.72,5.33e-04,0.033,CCL4;CXCL1
+Reactome,Chemokine Receptors Bind Chemokines,2,55.75,8.18e-04,0.033,CCL4;CXCL1
+GO:BP,Negative Regulation Of Cell Cycle (GO:0045786),2,36.89,1.81e-03,0.034,TSPYL2;DUSP1
+KEGG,Serotonergic synapse,2,27.55,3.17e-03,0.034,DUSP1;PLA2G4C
+KEGG,Cytokine-cytokine receptor interaction,3,16.86,1.27e-03,0.034,CCL4;CXCL1;INHBE
+KEGG,Viral protein interaction with cytokine and cytokine recepto,2,31.22,2.49e-03,0.034,CCL4;CXCL1
+KEGG,TNF signaling pathway,2,27.8,3.11e-03,0.034,CXCL1;BIRC3
+MSigDB Hallmarks,KRAS Signaling Up,2,15.37,9.59e-03,0.035,TSPAN1;BIRC3
+GO:BP,Negative Regulation Of Meiotic Cell Cycle (GO:0051447),1,356.8,3.74e-03,0.040,DUSP1
+GO:BP,Negative Regulation Of B Cell Receptor Signaling Pathway (GO,1,356.8,3.74e-03,0.040,LPXN
+GO:BP,Negative Regulation Of Monocyte Chemotaxis (GO:0090027),1,356.8,3.74e-03,0.040,DUSP1
+GO:BP,Regulation Of Natural Killer Cell Chemotaxis (GO:2000501),1,285.43,4.49e-03,0.040,CCL4
+GO:BP,Regulation Of Mitotic Sister Chromatid Segregation (GO:00330,1,203.86,5.99e-03,0.040,DUSP1
+GO:BP,Regulation Of Macrophage Migration (GO:1905521),1,203.86,5.99e-03,0.040,CD200R1
+GO:BP,Regulation Of Mitotic Spindle Checkpoint (GO:1903504),1,356.8,3.74e-03,0.040,DUSP1
+GO:BP,Transmembrane Receptor Protein Serine/Threonine Kinase Signa,2,23.87,4.16e-03,0.040,LPXN;INHBE
+GO:BP,Regulation Of Pyruvate Dehydrogenase Activity (GO:1904182),1,285.43,4.49e-03,0.040,SIRT4
+GO:BP,Negative Regulation Of p38MAPK Cascade (GO:1903753),1,285.43,4.49e-03,0.040,DUSP1
+GO:BP,Cellular Response To Tumor Necrosis Factor (GO:0071356),2,26.12,3.50e-03,0.040,CCL4;BIRC3
+GO:BP,Negative Regulation Of Programmed Necrotic Cell Death (GO:00,1,158.54,7.48e-03,0.040,BIRC3
+GO:BP,Regulation Of Mitotic Sister Chromatid Separation (GO:001096,1,158.54,7.48e-03,0.040,DUSP1
+GO:BP,Phosphatidylethanolamine Acyl-Chain Remodeling (GO:0036152),1,178.37,6.73e-03,0.040,PLA2G4C
+GO:BP,Negative Regulation Of Necroptotic Process (GO:0060546),1,178.37,6.73e-03,0.040,BIRC3
+GO:BP,Regulation Of Viral-Induced Cytoplasmic Pattern Recognition ,1,178.37,6.73e-03,0.040,BIRC3
+GO:BP,Neuron Remodeling (GO:0016322),1,178.37,6.73e-03,0.040,RND1
+GO:BP,Regulation Of Programmed Necrotic Cell Death (GO:0062098),1,158.54,7.48e-03,0.040,BIRC3
+GO:BP,Regulation Of Pattern Recognition Receptor Signaling Pathway,1,203.86,5.99e-03,0.040,BIRC3
+GO:BP,Ether Lipid Biosynthetic Process (GO:0008611),1,178.37,6.73e-03,0.040,PLA2G4C
+GO:BP,Negative Regulation Of Leukocyte Migration (GO:0002686),1,178.37,6.73e-03,0.040,CD200R1
+GO:BP,Negative Regulation Of Lymphocyte Migration (GO:2000402),1,158.54,7.48e-03,0.040,CD200R1
+GO:BP,Tricarboxylic Acid Metabolic Process (GO:0072350),1,203.86,5.99e-03,0.040,SIRT4
+GO:BP,Platelet Activating Factor Metabolic Process (GO:0046469),1,237.85,5.24e-03,0.040,PLA2G4C
+GO:BP,Negative Regulation Of Macrophage Migration (GO:1905522),1,237.85,5.24e-03,0.040,CD200R1
+GO:BP,Peptidyl-Lysine Deacetylation (GO:0034983),1,237.85,5.24e-03,0.040,SIRT4
+GO:BP,Negative Regulation Of Fatty Acid Oxidation (GO:0046322),1,237.85,5.24e-03,0.040,SIRT4
+GO:BP,Glutamine Metabolic Process (GO:0006541),1,118.89,9.71e-03,0.041,SIRT4
+GO:BP,Negative Regulation Of Neuroinflammatory Response (GO:015007,1,118.89,9.71e-03,0.041,CD200R1
+GO:BP,Response To Chemokine (GO:1990868),1,118.89,9.71e-03,0.041,DUSP1
+GO:BP,Regulation Of Oxidoreductase Activity (GO:0051341),1,118.89,9.71e-03,0.041,SIRT4
+GO:BP,Lipid Droplet Formation (GO:0140042),1,129.7,8.97e-03,0.041,PLA2G4C
+GO:BP,Negative Regulation By Host Of Viral Transcription (GO:00439,1,129.7,8.97e-03,0.041,CCL4
+GO:BP,Positive Regulation Of Calcium-Mediated Signaling (GO:005085,1,129.7,8.97e-03,0.041,CCL4
+GO:BP,Phosphatidylcholine Acyl-Chain Remodeling (GO:0036151),1,129.7,8.97e-03,0.041,PLA2G4C
+GO:BP,Negative Regulation Of Mononuclear Cell Migration (GO:007167,1,129.7,8.97e-03,0.041,DUSP1
+GO:BP,Negative Regulation Of Leukocyte Chemotaxis (GO:0002689),1,142.68,8.22e-03,0.041,DUSP1
+GO:BP,Endoderm Development (GO:0007492),1,109.74,1.05e-02,0.044,DUSP1
+GO:BP,Negative Regulation Of DNA Replication (GO:0008156),1,101.89,1.12e-02,0.046,TSPYL2
+GO:BP,Regulation Of B Cell Receptor Signaling Pathway (GO:0050855),1,95.1,1.19e-02,0.046,LPXN
+GO:BP,Regulation Of RIG-I Signaling Pathway (GO:0039535),1,83.9,1.34e-02,0.046,BIRC3
+GO:BP,Negative Regulation Of Peptide Hormone Secretion (GO:0090278,1,83.9,1.34e-02,0.046,SIRT4
+GO:BP,Regulation Of Fatty Acid Oxidation (GO:0046320),1,95.1,1.19e-02,0.046,SIRT4
+GO:BP,Negative Regulation Of Fatty Acid Metabolic Process (GO:0045,1,79.23,1.42e-02,0.046,SIRT4
+GO:BP,Regulation Of Neuroinflammatory Response (GO:0150077),1,79.23,1.42e-02,0.046,CD200R1
+GO:BP,Regulation Of Toll-Like Receptor Signaling Pathway (GO:00341,1,75.06,1.49e-02,0.046,BIRC3
+GO:BP,Negative Regulation Of Reproductive Process (GO:2000242),1,75.06,1.49e-02,0.046,DUSP1
+GO:BP,Regulation Of Meiotic Cell Cycle (GO:0051445),1,75.06,1.49e-02,0.046,DUSP1
+GO:BP,Regulation Of Necroptotic Process (GO:0060544),1,75.06,1.49e-02,0.046,BIRC3
+GO:BP,Regulation Of Inflammatory Response (GO:0050727),2,12.76,1.36e-02,0.046,CD200R1;BIRC3
+GO:BP,Negative Regulation Of Insulin Secretion (GO:0046676),1,89.15,1.27e-02,0.046,SIRT4
+GO:BP,Neuron Maturation (GO:0042551),1,89.15,1.27e-02,0.046,RND1
+GO:BP,Regulation Of Mitotic Cell Cycle Spindle Assembly Checkpoint,1,89.15,1.27e-02,0.046,DUSP1
+GO:BP,Positive Regulation Of Lymphocyte Chemotaxis (GO:0140131),1,89.15,1.27e-02,0.046,CCL4
+GO:BP,Glycerolipid Catabolic Process (GO:0046503),1,83.9,1.34e-02,0.046,PLA2G4C
+GO:BP,Positive Regulation Of Lipid Metabolic Process (GO:0045834),1,61.99,1.79e-02,0.051,SIRT4
+GO:BP,Negative Regulation Of Antigen Receptor-Mediated Signaling P,1,61.99,1.79e-02,0.051,LPXN
+GO:BP,Eosinophil Chemotaxis (GO:0048245),1,61.99,1.79e-02,0.051,CCL4
+GO:BP,Regulation Of T Cell Migration (GO:2000404),1,64.81,1.71e-02,0.051,CD200R1
+GO:BP,Regulation Of Cysteine-Type Endopeptidase Activity (GO:20001,1,61.99,1.79e-02,0.051,BIRC3
+GO:BP,Eosinophil Migration (GO:0072677),1,61.99,1.79e-02,0.051,CCL4
+GO:BP,Regulation Of Monocyte Chemotaxis (GO:0090025),1,59.41,1.86e-02,0.052,DUSP1
+KEGG,Necroptosis,2,19.43,6.16e-03,0.054,PLA2G4C;BIRC3
+KEGG,Chemokine signaling pathway,2,16.03,8.87e-03,0.054,CCL4;CXCL1
+KEGG,Kaposi sarcoma-associated herpesvirus infection,2,15.94,8.96e-03,0.054,CD200R1;CXCL1
+KEGG,NOD-like receptor signaling pathway,2,17.02,7.92e-03,0.054,CXCL1;BIRC3
+GO:BP,Heterotypic Cell-Cell Adhesion (GO:0034113),1,50.91,2.15e-02,0.054,CD200R1
+GO:BP,Lipid Droplet Organization (GO:0034389),1,50.91,2.15e-02,0.054,PLA2G4C
+GO:BP,Cellular Response To Cytokine Stimulus (GO:0071345),2,9.89,2.17e-02,0.054,DUSP1;CCL4
+GO:BP,Positive Regulation Of Calcium Ion Transport (GO:0051928),1,50.91,2.15e-02,0.054,CCL4
+GO:BP,Peptidyl-Tyrosine Dephosphorylation (GO:0035335),1,50.91,2.15e-02,0.054,DUSP1
+GO:BP,Regulation Of Lipid Biosynthetic Process (GO:0046890),1,52.8,2.08e-02,0.054,SIRT4
+GO:BP,Glycerophospholipid Catabolic Process (GO:0046475),1,54.83,2.01e-02,0.054,PLA2G4C
+GO:BP,Regulation Of Cell Cycle (GO:0051726),2,10.23,2.04e-02,0.054,TSPYL2;BIRC3
+GO:BP,Phospholipid Catabolic Process (GO:0009395),1,52.8,2.08e-02,0.054,PLA2G4C
+GO:BP,Regulation Of Calcium-Mediated Signaling (GO:0050848),1,49.15,2.23e-02,0.055,CCL4
+GO:BP,Glutamine Family Amino Acid Metabolic Process (GO:0009064),1,47.51,2.30e-02,0.055,SIRT4
+GO:BP,Regulation Of Response To Biotic Stimulus (GO:0002831),1,47.51,2.30e-02,0.055,BIRC3
+GO:BP,NIK/NF-kappaB Signaling (GO:0038061),1,45.98,2.37e-02,0.057,BIRC3
+GO:BP,Carboxylic Acid Metabolic Process (GO:0019752),1,44.54,2.45e-02,0.058,SIRT4
+GO:BP,Negative Regulation Of Interleukin-6 Production (GO:0032715),1,43.19,2.52e-02,0.059,CD200R1
+GO:BP,Endoderm Formation (GO:0001706),1,41.91,2.59e-02,0.060,DUSP1
+GO:BP,Histone Deacetylation (GO:0016575),1,40.71,2.67e-02,0.060,SIRT4
+GO:BP,Substrate Adhesion-Dependent Cell Spreading (GO:0034446),1,40.71,2.67e-02,0.060,LPXN
+GO:BP,Regulation Of p38MAPK Cascade (GO:1900744),1,39.58,2.74e-02,0.060,DUSP1
+GO:BP,Negative Regulation Of Stress-Activated MAPK Cascade (GO:003,1,39.58,2.74e-02,0.060,DUSP1
+Reactome,Unfolded Protein Response (UPR),2,32.91,2.25e-03,0.061,TSPYL2;CREBRF
+GO:BP,Protein Deacetylation (GO:0006476),1,36.53,2.96e-02,0.061,SIRT4
+GO:BP,Positive Regulation Of Monoatomic Ion Transport (GO:0043270),1,36.53,2.96e-02,0.061,CCL4
+GO:BP,Positive Regulation Of Lipid Biosynthetic Process (GO:004688,1,37.49,2.89e-02,0.061,SIRT4
+GO:BP,Tumor Necrosis Factor-Mediated Signaling Pathway (GO:0033209,1,38.51,2.81e-02,0.061,BIRC3
+GO:BP,Endothelial Cell Migration (GO:0043542),1,36.53,2.96e-02,0.061,LPXN
+GO:BP,Negative Regulation Of Protein Secretion (GO:0050709),1,37.49,2.89e-02,0.061,SIRT4
+GO:BP,Lymphocyte Migration (GO:0072676),1,35.62,3.03e-02,0.062,CCL4
+GO:BP,Modulation By Host Of Symbiont Process (GO:0051851),1,34.75,3.11e-02,0.062,CCL4
+GO:BP,Monocyte Chemotaxis (GO:0002548),1,34.75,3.11e-02,0.062,CCL4
+GO:BP,Lymphocyte Chemotaxis (GO:0048247),1,33.13,3.25e-02,0.064,CCL4
+GO:BP,Positive Regulation Of Biosynthetic Process (GO:0009891),1,33.13,3.25e-02,0.064,SIRT4
+GO:BP,I-kappaB kinase/NF-kappaB Signaling (GO:0007249),1,32.37,3.32e-02,0.065,BIRC3
+GO:BP,Epithelial Cell Migration (GO:0010631),1,31.65,3.40e-02,0.066,LPXN
+GO:BP,Regulation Of Mitotic Metaphase/Anaphase Transition (GO:0030,1,29.67,3.61e-02,0.067,DUSP1
+GO:BP,Negative Regulation Of DNA Metabolic Process (GO:0051053),1,29.67,3.61e-02,0.067,TSPYL2
+GO:BP,Regulation Of Cell Communication (GO:0010646),1,29.67,3.61e-02,0.067,TSPYL2
+GO:BP,Unsaturated Fatty Acid Metabolic Process (GO:0033559),1,29.67,3.61e-02,0.067,PLA2G4C
+GO:BP,Positive Regulation Of Pathway-Restricted SMAD Protein Phosp,1,29.67,3.61e-02,0.067,INHBE
+GO:BP,Negative Regulation Of MAP Kinase Activity (GO:0043407),1,28.48,3.76e-02,0.068,DUSP1
+GO:BP,SMAD Protein Signal Transduction (GO:0060395),1,28.48,3.76e-02,0.068,INHBE
+GO:BP,Icosanoid Metabolic Process (GO:0006690),1,27.92,3.83e-02,0.068,PLA2G4C
+GO:BP,Arachidonic Acid Metabolic Process (GO:0019369),1,27.92,3.83e-02,0.068,PLA2G4C
+GO:BP,Phosphatidylcholine Metabolic Process (GO:0046470),1,26.36,4.05e-02,0.072,PLA2G4C
+GO:BP,Regulation Of Mitotic Nuclear Division (GO:0007088),1,25.88,4.12e-02,0.072,DUSP1
+GO:BP,Regulation Of Calcium Ion Transport (GO:0051924),1,25.42,4.19e-02,0.073,CCL4
+Reactome,RIPK1-mediated Regulated Necrosis,1,43.19,2.52e-02,0.073,BIRC3
+Reactome,Regulation of Pyruvate Dehydrogenase (PDH) Complex,1,101.89,1.12e-02,0.073,SIRT4
+Reactome,Acyl Chain Remodelling of PI,1,89.15,1.27e-02,0.073,PLA2G4C
+Reactome,Cytokine Signaling in Immune System,3,6.21,1.87e-02,0.073,CCL4;CXCL1;BIRC3
+Reactome,Sema4D in Semaphorin Signaling,1,61.99,1.79e-02,0.073,RND1
+Reactome,Class A 1 (Rhodopsin-like Receptors),2,9.14,2.52e-02,0.073,CCL4;CXCL1
+Reactome,Regulation of Pyruvate Metabolism,1,44.54,2.45e-02,0.073,SIRT4
+Reactome,G Alpha (I) Signalling Events,2,9.64,2.28e-02,0.073,CCL4;CXCL1
+Reactome,Acyl Chain Remodelling of PE,1,50.91,2.15e-02,0.073,PLA2G4C
+Reactome,TNFR1-induced NF-kappa-B Signaling Pathway,1,44.54,2.45e-02,0.073,BIRC3
+Reactome,Regulation of Necroptotic Cell Death,1,45.98,2.37e-02,0.073,BIRC3
+Reactome,TNF Receptor Superfamily (TNFSF) Members Mediating Non-Canon,1,89.15,1.27e-02,0.073,BIRC3
+Reactome,Hydrolysis of LPC,1,178.37,6.73e-03,0.073,PLA2G4C
+Reactome,RAF-independent MAPK1 3 Activation,1,64.81,1.71e-02,0.073,DUSP1
+Reactome,SEMA3A-Plexin Repulsion Signaling by Inhibiting Integrin Adh,1,109.74,1.05e-02,0.073,RND1
+Reactome,Glycoprotein Hormones,1,158.54,7.48e-03,0.073,INHBE
+Reactome,CREB3 Factors Activate Genes,1,178.37,6.73e-03,0.073,CREBRF
+Reactome,Peptide Ligand-Binding Receptors,2,15.53,9.41e-03,0.073,CCL4;CXCL1
+Reactome,Peptide Hormone Biosynthesis,1,129.7,8.97e-03,0.073,INHBE
+Reactome,Sema4D Mediated Inhibition of Cell Attachment and Migration,1,203.86,5.99e-03,0.073,RND1
+Reactome,"TICAM1, RIP1-mediated IKK Complex Recruitment",1,79.23,1.42e-02,0.073,BIRC3
+Reactome,Acyl Chain Remodelling of PC,1,54.83,2.01e-02,0.073,PLA2G4C
+Reactome,IKK Complex Recruitment Mediated by RIP1,1,64.81,1.71e-02,0.073,BIRC3
+Reactome,Sema4D Induced Cell Migration and Growth-Cone Collapse,1,75.06,1.49e-02,0.073,RND1
+Reactome,TNFR1-induced Proapoptotic Signaling,1,57.03,1.93e-02,0.073,BIRC3
+GO:BP,Regulation Of Neuron Death (GO:1901214),1,24.97,4.26e-02,0.073,CD200R1
+GO:BP,Cilium Movement (GO:0003341),1,24.54,4.34e-02,0.074,CFAP251
+GO:BP,BMP Signaling Pathway (GO:0030509),1,23.72,4.48e-02,0.075,INHBE
+GO:BP,Regulation Of Pathway-Restricted SMAD Protein Phosphorylatio,1,23.72,4.48e-02,0.075,INHBE
+GO:BP,Glycerophospholipid Metabolic Process (GO:0006650),1,23.33,4.55e-02,0.076,PLA2G4C
+Reactome,NOD1 2 Signaling Pathway,1,39.58,2.74e-02,0.077,BIRC3
+GO:BP,Negative Regulation Of Cell Death (GO:0060548),1,22.59,4.70e-02,0.078,CD200R1
+GO:BP,Cellular Response To Type II Interferon (GO:0071346),1,21.89,4.84e-02,0.078,CCL4
+GO:BP,Cellular Response To BMP Stimulus (GO:0071773),1,21.89,4.84e-02,0.078,INHBE
+GO:BP,Antimicrobial Humoral Immune Response Mediated By Antimicrob,1,22.23,4.77e-02,0.078,CXCL1
+GO:BP,Phospholipid Metabolic Process (GO:0006644),1,20.92,5.05e-02,0.080,PLA2G4C
+GO:BP,Regulation Of Endopeptidase Activity (GO:0052548),1,20.92,5.05e-02,0.080,BIRC3
+Reactome,Negative Regulation of MAPK Pathway,1,33.92,3.18e-02,0.083,DUSP1
+Reactome,RND1 GTPase Cycle,1,34.75,3.11e-02,0.083,RND1
+GO:BP,Transforming Growth Factor Beta Receptor Signaling Pathway (,1,20.03,5.27e-02,0.083,LPXN
+Reactome,Regulation of TNFR1 Signaling,1,29.06,3.69e-02,0.085,BIRC3
+Reactome,Pyruvate Metabolism,1,29.67,3.61e-02,0.085,SIRT4
+Reactome,Signal Transduction,5,3.33,3.68e-02,0.085,DUSP1;CCL4;CXCL1;RND1;BIRC3
+Reactome,IRE1alpha Activates Chaperones,1,28.48,3.76e-02,0.085,TSPYL2
+Reactome,XBP1(S) Activates Chaperone Genes,1,29.67,3.61e-02,0.085,TSPYL2
+GO:BP,Regulation Of DNA Replication (GO:0006275),1,19.22,5.48e-02,0.086,TSPYL2
+GO:BP,Response To Type II Interferon (GO:0034341),1,18.0,5.84e-02,0.087,CCL4
+GO:BP,Histone Modification (GO:0016570),1,17.77,5.91e-02,0.087,SIRT4
+GO:BP,Cellular Response To Interleukin-1 (GO:0071347),1,17.77,5.91e-02,0.087,CCL4
+GO:BP,Long-Chain Fatty Acid Metabolic Process (GO:0001676),1,18.47,5.69e-02,0.087,PLA2G4C
+GO:BP,Positive Regulation Of Intracellular Signal Transduction (GO,2,5.72,5.76e-02,0.087,CCL4;BIRC3
+GO:BP,Positive Regulation Of Protein Modification By Small Protein,1,18.23,5.77e-02,0.087,BIRC3
+GO:BP,Regulation Of Immune Response (GO:0050776),1,18.71,5.62e-02,0.087,BIRC3
+GO:BP,Regulation Of Innate Immune Response (GO:0045088),1,18.47,5.69e-02,0.087,BIRC3
+GO:BP,Negative Regulation Of Protein Serine/Threonine Kinase Activ,1,18.0,5.84e-02,0.087,DUSP1
+Reactome,"Nucleotide-binding Domain, Leucine Rich Repeat Containing Re",1,23.72,4.48e-02,0.088,BIRC3
+Reactome,Regulated Necrosis,1,23.72,4.48e-02,0.088,BIRC3
+Reactome,TNF Signaling,1,24.54,4.34e-02,0.088,BIRC3
+Reactome,Transcriptional Activation of Mitochondrial Biogenesis,1,25.88,4.12e-02,0.088,SIRT4
+Reactome,GPCR Ligand Binding,2,6.46,4.67e-02,0.088,CCL4;CXCL1
+Reactome,Semaphorin Interactions,1,22.59,4.70e-02,0.088,RND1
+Reactome,Signaling by Interleukins,2,6.68,4.41e-02,0.088,CCL4;CXCL1
+GO:BP,Positive Regulation Of Protein Ubiquitination (GO:0031398),1,17.13,6.12e-02,0.089,BIRC3
+GO:BP,Response To Interleukin-1 (GO:0070555),1,16.92,6.19e-02,0.089,CCL4
+GO:BP,Regulation Of Kinase Activity (GO:0043549),1,16.92,6.19e-02,0.089,TSPYL2
+GO:BP,Regulation Of Insulin Secretion (GO:0050796),1,16.53,6.33e-02,0.090,SIRT4
+GO:BP,Negative Regulation Of Neuron Death (GO:1901215),1,16.34,6.40e-02,0.091,CD200R1
+GO:BP,Peptidyl-Lysine Modification (GO:0018205),1,15.28,6.82e-02,0.096,SIRT4
+GO:BP,Positive Regulation Of Transmembrane Receptor Protein Serine,1,15.11,6.90e-02,0.096,INHBE
+GO:BP,Cellular Response To Transforming Growth Factor Beta Stimulu,1,14.95,6.97e-02,0.096,LPXN
+GO:BP,Regulation Of Defense Response (GO:0031347),1,14.8,7.04e-02,0.097,BIRC3
+KEGG,MAPK signaling pathway,2,10.38,1.99e-02,0.097,DUSP1;PLA2G4C
+KEGG,alpha-Linolenic acid metabolism,1,59.41,1.86e-02,0.097,PLA2G4C
+KEGG,Linoleic acid metabolism,1,50.91,2.15e-02,0.097,PLA2G4C
+GO:BP,Antimicrobial Humoral Response (GO:0019730),1,14.35,7.25e-02,0.099,CXCL1

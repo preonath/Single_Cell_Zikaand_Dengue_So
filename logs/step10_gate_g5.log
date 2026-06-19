@@ -1,0 +1,64 @@
+[2026-06-13 20:10:26] ============================================================
+[2026-06-13 20:10:26] Step 10: GATE G5 — miRNA Integration (Central Hypothesis)
+[2026-06-13 20:10:26] ============================================================
+[2026-06-13 20:10:26] Loading shared DEGs ...
+[2026-06-13 20:10:26]   Shared upregulated: 15 genes → ['BIRC3', 'SIRT4', 'VNN3P', 'PLA2G4C', 'LPXN', 'TSPAN1', 'DUSP1', 'INHBE', 'CFAP251', 'CD200R1', 'CXCL1', 'CREBRF', 'RND1', 'TSPYL2', 'CCL4']
+[2026-06-13 20:10:26]   Background: 498 genes
+[2026-06-13 20:10:26] 
+Loading miRNA sets ...
+[2026-06-13 20:10:26]   55-set (cross-flavivirus): 55 miRNAs
+[2026-06-13 20:10:26]   91-set (all DENV):         91 miRNAs
+[2026-06-13 20:10:26]   36-set (DENV-only ctrl):   36 miRNAs
+[2026-06-13 20:10:26] 
+Running Enrichr (TargetScan + miRTarBase) on shared upregulated DEGs ...
+[2026-06-13 20:10:28]   TargetScan_microRNA_2017: 361 terms, 0 significant (adj-p < 0.05)
+[2026-06-13 20:10:33]   miRTarBase_2017: 327 terms, 0 significant (adj-p < 0.05)
+[2026-06-13 20:10:33] 
+Fetching TargetScan target gene lists for each miRNA set ...
+[2026-06-13 20:13:06]   Could not fetch Enrichr library TargetScan_microRNA_2017: Response ended prematurely
+[2026-06-13 20:13:06]   ERROR fetching targets: not enough values to unpack (expected 2, got 0)
+[2026-06-13 20:13:06]   Falling back to Enrichr result overlap method
+[2026-06-13 20:13:06] 
+==================================================
+[2026-06-13 20:13:06] GATE G5: Three-Tier miRNA Enrichment Test
+[2026-06-13 20:13:06] ==================================================
+[2026-06-13 20:13:06]   55-set (cross-flavi): No targets available — skipping Fisher test
+[2026-06-13 20:13:06]   91-set (DENV all): No targets available — skipping Fisher test
+[2026-06-13 20:13:06]   36-set (DENV-only): No targets available — skipping Fisher test
+[2026-06-13 20:13:06] 
+Checking Enrichr results for miRNA set overlap ...
+[2026-06-13 20:13:06] 
+  [TargetScan_microRNA_2017]
+[2026-06-13 20:13:06]     Sig. terms (adj-p<0.05): 0
+[2026-06-13 20:13:06]     55-set miRNAs found (sig/all): 0/1
+[2026-06-13 20:13:06]     91-set miRNAs found (sig): 0
+[2026-06-13 20:13:06]     36-set miRNAs found (sig): 0
+[2026-06-13 20:13:06] 
+  [miRTarBase_2017]
+[2026-06-13 20:13:06]     Sig. terms (adj-p<0.05): 0
+[2026-06-13 20:13:06]     55-set miRNAs found (sig/all): 0/12
+[2026-06-13 20:13:06]     91-set miRNAs found (sig): 0
+[2026-06-13 20:13:06]     36-set miRNAs found (sig): 0
+[2026-06-13 20:13:06] 
+Computing three-way intersection: shared DEGs ∩ proviral ∩ miRNA-55 targets ...
+[2026-06-13 20:13:06]   Shared up ∩ miRNA-55 targets: 0 genes → []
+[2026-06-13 20:13:06]   Shared up ∩ proviral:         0 genes → []
+[2026-06-13 20:13:06]   Three-way (∩ both):           0 genes → []
+[2026-06-13 20:13:06] 
+  Three-way intersection saved → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase6_mirna/three_way_intersection.csv
+[2026-06-13 20:13:06] 
+Generating GATE G5 figure ...
+[2026-06-13 20:13:07] Figure saved → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main/Figure_GATE_G5_miRNA_Integration.png
+[2026-06-13 20:13:07] 
+============================================================
+[2026-06-13 20:13:07] GATE G5 DECISION
+[2026-06-13 20:13:07] ============================================================
+[2026-06-13 20:13:07]   55-set p = 1.0000e+00  FE = 0.0×
+[2026-06-13 20:13:07]   91-set p = 1.0000e+00
+[2026-06-13 20:13:07]   36-set p = 1.0000e+00  FE = 0.0×
+[2026-06-13 20:13:07]   Three-way intersection genes: 0
+[2026-06-13 20:13:07]   GATE G5: NOT PASSED — No miRNA target enrichment in shared DEGs
+[2026-06-13 20:13:07]   → Central hypothesis not supported at gene level
+[2026-06-13 20:13:07]   → Check pathway-level miRNA connection instead
+[2026-06-13 20:13:07] 
+Next: run step11_download_validation_datasets.py

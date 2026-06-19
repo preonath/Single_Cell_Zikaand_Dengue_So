@@ -1,0 +1,3 @@
+gene1,gene2,combined_score,experimental,coexpression,database
+BIRC3,CXCL1,0.451,0,0,0
+CXCL1,CCL4,0.941,0,0,0

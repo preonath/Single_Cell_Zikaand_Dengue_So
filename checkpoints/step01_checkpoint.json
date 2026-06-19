@@ -1,0 +1,10 @@
+{
+  "geo_metadata_done": true,
+  "n_samples": 2260,
+  "downloaded_files": [
+    "GSE110496_RAW.tar"
+  ],
+  "suppl_download_done": true,
+  "tar_extracted": true,
+  "gz_extracted": true
+}

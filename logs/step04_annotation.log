@@ -1,0 +1,199 @@
+[2026-06-13 01:38:21] ============================================================
+[2026-06-13 01:38:21] Step 04: Gene Annotation (Ensembl → Symbol)
+[2026-06-13 01:38:21] ============================================================
+[2026-06-13 01:38:21] Loaded DENV DEGs: 26906, ZIKV DEGs: 25166
+[2026-06-13 01:38:21] Shared upregulated IDs: 15
+[2026-06-13 01:38:21] Querying MyGene.info for 27577 Ensembl IDs ...
+[2026-06-13 01:38:26]   Batch 1: 1000 queried
+[2026-06-13 01:38:30]   Batch 2: 1000 queried
+[2026-06-13 01:38:35]   Batch 3: 1000 queried
+[2026-06-13 01:38:40]   Batch 4: 1000 queried
+[2026-06-13 01:38:46]   Batch 5: 1000 queried
+[2026-06-13 01:38:53]   Batch 6: 1000 queried
+[2026-06-13 01:38:58]   Batch 7: 1000 queried
+[2026-06-13 01:39:03]   Batch 8: 1000 queried
+[2026-06-13 01:39:08]   Batch 9: 1000 queried
+[2026-06-13 01:39:14]   Batch 10: 1000 queried
+[2026-06-13 01:39:20]   Batch 11: 1000 queried
+[2026-06-13 01:39:25]   Batch 12: 1000 queried
+[2026-06-13 01:39:30]   Batch 13: 1000 queried
+[2026-06-13 01:39:35]   Batch 14: 1000 queried
+[2026-06-13 01:39:39]   Batch 15: 1000 queried
+[2026-06-13 01:39:44]   Batch 16: 1000 queried
+[2026-06-13 01:39:50]   Batch 17: 1000 queried
+[2026-06-13 01:39:54]   Batch 18: 1000 queried
+[2026-06-13 01:39:59]   Batch 19: 1000 queried
+[2026-06-13 01:40:05]   Batch 20: 1000 queried
+[2026-06-13 01:40:09]   Batch 21: 1000 queried
+[2026-06-13 01:40:16]   Batch 22: 1000 queried
+[2026-06-13 01:40:23]   Batch 23: 1000 queried
+[2026-06-13 01:40:30]   Batch 24: 1000 queried
+[2026-06-13 01:40:36]   Batch 25: 1000 queried
+[2026-06-13 01:40:44]   Batch 26: 1000 queried
+[2026-06-13 01:40:49]   Batch 27: 1000 queried
+[2026-06-13 01:40:54]   Batch 28: 577 queried
+[2026-06-13 01:40:55]   Mapped: 22932 / 27577 IDs
+[2026-06-13 01:40:55] ✓ Annotation saved → ensembl_annotation.csv
+[2026-06-13 01:40:55] 
+Annotating DEG tables ...
+[2026-06-13 01:40:55]   DENV: 22502/26906 genes have symbols
+[2026-06-13 01:40:55]   ZIKV: 21271/25166 genes have symbols
+[2026-06-13 01:40:56] 
+Building shared gene table ...
+[2026-06-13 01:40:56] 
+============================================================
+[2026-06-13 01:40:56] THE 15 SHARED UPREGULATED GENES (DENV & ZIKV vs Control):
+[2026-06-13 01:40:56] ============================================================
+[2026-06-13 01:40:56]   CCL4         FC_DENV=+4.97  FC_ZIKV=+5.57  C-C motif chemokine ligand 4
+[2026-06-13 01:40:56]   BIRC3        FC_DENV=+3.28  FC_ZIKV=+3.44  baculoviral IAP repeat containing 3  [PROVIRAL]
+[2026-06-13 01:40:56]   VNN3P        FC_DENV=+2.72  FC_ZIKV=+2.50  vanin 3, pseudogene
+[2026-06-13 01:40:56]   TSPAN1       FC_DENV=+2.31  FC_ZIKV=+2.90  tetraspanin 1
+[2026-06-13 01:40:56]   INHBE        FC_DENV=+2.15  FC_ZIKV=+1.73  inhibin subunit beta E
+[2026-06-13 01:40:56]   TSPYL2       FC_DENV=+1.99  FC_ZIKV=+1.11  TSPY like 2
+[2026-06-13 01:40:56]   PLA2G4C      FC_DENV=+1.92  FC_ZIKV=+2.08  phospholipase A2 group IVC
+[2026-06-13 01:40:56]   CXCL1        FC_DENV=+1.59  FC_ZIKV=+1.43  C-X-C motif chemokine ligand 1
+[2026-06-13 01:40:56]   RND1         FC_DENV=+1.58  FC_ZIKV=+1.90  Rho family GTPase 1
+[2026-06-13 01:40:56]   SIRT4        FC_DENV=+1.49  FC_ZIKV=+1.85  sirtuin 4
+[2026-06-13 01:40:56]   CD200R1      FC_DENV=+1.37  FC_ZIKV=+2.10  CD200 receptor 1
+[2026-06-13 01:40:56]   LPXN         FC_DENV=+1.35  FC_ZIKV=+1.94  leupaxin
+[2026-06-13 01:40:56]   CFAP251      FC_DENV=+1.26  FC_ZIKV=+1.40  cilia and flagella associated protein 251
+[2026-06-13 01:40:56]   CREBRF       FC_DENV=+1.22  FC_ZIKV=+1.52  CREB3 regulatory factor
+[2026-06-13 01:40:56]   DUSP1        FC_DENV=+1.01  FC_ZIKV=+1.16  dual specificity phosphatase 1
+[2026-06-13 01:40:56] 
+  ISGs in shared genes   : 0
+[2026-06-13 01:40:56]   Proviral in shared     : 1
+[2026-06-13 01:40:56]   Antiviral in shared    : 0
+[2026-06-13 01:40:56]   Annotated volcano → volcano_DENV_annotated
+[2026-06-13 01:40:57]   Annotated volcano → volcano_ZIKV_annotated
+[2026-06-13 01:40:57] Generating shared gene heatmap ...
+[2026-06-13 01:40:58]   Shared gene heatmap saved → FIG_MAIN
+[2026-06-13 01:40:58]   Annotated DEG table saved → DEGs_DENV_vs_Control_annotated.csv (527 genes)
+[2026-06-13 01:40:58]   Annotated DEG table saved → DEGs_ZIKV_vs_Control_annotated.csv (176 genes)
+[2026-06-13 01:40:58] 
+ISG enrichment in shared upregulated genes:
+[2026-06-13 01:40:58]   ISGs upregulated in DENV : 7 — ['CXCL10', 'IFI6', 'IFITM1', 'IFITM3', 'ISG15', 'MX1', 'OAS1']
+[2026-06-13 01:40:58]   ISGs upregulated in ZIKV : 1 — ['IFIT3']
+[2026-06-13 01:40:58]   ISGs in shared genes     : 0 — []
+[2026-06-13 01:40:58] 
+============================================================
+[2026-06-13 01:40:58] STEP 04 COMPLETE
+[2026-06-13 01:40:58]   Annotation file   : ensembl_annotation.csv
+[2026-06-13 01:40:58]   Annotated DEG DENV: DEGs_DENV_vs_Control_annotated.csv
+[2026-06-13 01:40:58]   Annotated DEG ZIKV: DEGs_ZIKV_vs_Control_annotated.csv
+[2026-06-13 01:40:58]   Shared genes table: shared_DEGs_annotated.csv
+[2026-06-13 01:40:58]   Heatmap + volcanos: /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main / /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/supplementary
+[2026-06-13 01:40:58] 
+Next: run step05_pathway_enrichment.py
+[2026-06-13 01:40:58] ============================================================
+[2026-06-19 14:07:38] ============================================================
+[2026-06-19 14:07:38] Step 04: Gene Annotation (Ensembl → Symbol)
+[2026-06-19 14:07:38] ============================================================
+[2026-06-19 14:07:38] Loaded DENV DEGs: 26906, ZIKV DEGs: 25166
+[2026-06-19 14:07:38] Shared upregulated IDs: 15
+[2026-06-19 14:07:38] ✓ Annotation already done — loading ...
+[2026-06-19 14:07:38]   22932/27577 IDs mapped
+[2026-06-19 14:07:38] 
+Annotating DEG tables ...
+[2026-06-19 14:07:38]   DENV: 22502/26906 genes have symbols
+[2026-06-19 14:07:38]   ZIKV: 21271/25166 genes have symbols
+[2026-06-19 14:07:39] 
+Building shared gene table ...
+[2026-06-19 14:07:39] 
+============================================================
+[2026-06-19 14:07:39] THE 15 SHARED UPREGULATED GENES (DENV & ZIKV vs Control):
+[2026-06-19 14:07:39] ============================================================
+[2026-06-19 14:07:39]   CCL4         FC_DENV=+4.97  FC_ZIKV=+5.57  C-C motif chemokine ligand 4
+[2026-06-19 14:07:39]   BIRC3        FC_DENV=+3.28  FC_ZIKV=+3.44  baculoviral IAP repeat containing 3  [PROVIRAL]
+[2026-06-19 14:07:39]   VNN3P        FC_DENV=+2.72  FC_ZIKV=+2.50  vanin 3, pseudogene
+[2026-06-19 14:07:39]   TSPAN1       FC_DENV=+2.31  FC_ZIKV=+2.90  tetraspanin 1
+[2026-06-19 14:07:39]   INHBE        FC_DENV=+2.15  FC_ZIKV=+1.73  inhibin subunit beta E
+[2026-06-19 14:07:39]   TSPYL2       FC_DENV=+1.99  FC_ZIKV=+1.11  TSPY like 2
+[2026-06-19 14:07:39]   PLA2G4C      FC_DENV=+1.92  FC_ZIKV=+2.08  phospholipase A2 group IVC
+[2026-06-19 14:07:39]   CXCL1        FC_DENV=+1.59  FC_ZIKV=+1.43  C-X-C motif chemokine ligand 1
+[2026-06-19 14:07:39]   RND1         FC_DENV=+1.58  FC_ZIKV=+1.90  Rho family GTPase 1
+[2026-06-19 14:07:39]   SIRT4        FC_DENV=+1.49  FC_ZIKV=+1.85  sirtuin 4
+[2026-06-19 14:07:39]   CD200R1      FC_DENV=+1.37  FC_ZIKV=+2.10  CD200 receptor 1
+[2026-06-19 14:07:39]   LPXN         FC_DENV=+1.35  FC_ZIKV=+1.94  leupaxin
+[2026-06-19 14:07:39]   CFAP251      FC_DENV=+1.26  FC_ZIKV=+1.40  cilia and flagella associated protein 251
+[2026-06-19 14:07:39]   CREBRF       FC_DENV=+1.22  FC_ZIKV=+1.52  CREB3 regulatory factor
+[2026-06-19 14:07:39]   DUSP1        FC_DENV=+1.01  FC_ZIKV=+1.16  dual specificity phosphatase 1
+[2026-06-19 14:07:39] 
+  ISGs in shared genes   : 0
+[2026-06-19 14:07:39]   Proviral in shared     : 1
+[2026-06-19 14:07:39]   Antiviral in shared    : 0
+[2026-06-19 14:07:39] ✓ Annotated volcanos already saved
+[2026-06-19 14:07:39] ✓ Heatmap already saved
+[2026-06-19 14:07:39]   Annotated DEG table saved → DEGs_DENV_vs_Control_annotated.csv (527 genes)
+[2026-06-19 14:07:39]   Annotated DEG table saved → DEGs_ZIKV_vs_Control_annotated.csv (176 genes)
+[2026-06-19 14:07:39] 
+ISG enrichment in shared upregulated genes:
+[2026-06-19 14:07:39]   ISGs upregulated in DENV : 7 — ['CXCL10', 'IFI6', 'IFITM1', 'IFITM3', 'ISG15', 'MX1', 'OAS1']
+[2026-06-19 14:07:39]   ISGs upregulated in ZIKV : 1 — ['IFIT3']
+[2026-06-19 14:07:39]   ISGs in shared genes     : 0 — []
+[2026-06-19 14:07:39] 
+============================================================
+[2026-06-19 14:07:39] STEP 04 COMPLETE
+[2026-06-19 14:07:39]   Annotation file   : ensembl_annotation.csv
+[2026-06-19 14:07:39]   Annotated DEG DENV: DEGs_DENV_vs_Control_annotated.csv
+[2026-06-19 14:07:39]   Annotated DEG ZIKV: DEGs_ZIKV_vs_Control_annotated.csv
+[2026-06-19 14:07:39]   Shared genes table: shared_DEGs_annotated.csv
+[2026-06-19 14:07:39]   Heatmap + volcanos: /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main / /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/supplementary
+[2026-06-19 14:07:39] 
+Next: run step05_pathway_enrichment.py
+[2026-06-19 14:07:39] ============================================================
+[2026-06-19 14:07:39] ============================================================
+[2026-06-19 14:07:39] Step 04: Gene Annotation (Ensembl → Symbol)
+[2026-06-19 14:07:39] ============================================================
+[2026-06-19 14:07:39] Loaded DENV DEGs: 26906, ZIKV DEGs: 25166
+[2026-06-19 14:07:39] Shared upregulated IDs: 15
+[2026-06-19 14:07:39] ✓ Annotation already done — loading ...
+[2026-06-19 14:07:39]   22932/27577 IDs mapped
+[2026-06-19 14:07:39] 
+Annotating DEG tables ...
+[2026-06-19 14:07:39]   DENV: 22502/26906 genes have symbols
+[2026-06-19 14:07:39]   ZIKV: 21271/25166 genes have symbols
+[2026-06-19 14:07:39] 
+Building shared gene table ...
+[2026-06-19 14:07:39] 
+============================================================
+[2026-06-19 14:07:39] THE 15 SHARED UPREGULATED GENES (DENV & ZIKV vs Control):
+[2026-06-19 14:07:39] ============================================================
+[2026-06-19 14:07:39]   CCL4         FC_DENV=+4.97  FC_ZIKV=+5.57  C-C motif chemokine ligand 4
+[2026-06-19 14:07:39]   BIRC3        FC_DENV=+3.28  FC_ZIKV=+3.44  baculoviral IAP repeat containing 3  [PROVIRAL]
+[2026-06-19 14:07:39]   VNN3P        FC_DENV=+2.72  FC_ZIKV=+2.50  vanin 3, pseudogene
+[2026-06-19 14:07:39]   TSPAN1       FC_DENV=+2.31  FC_ZIKV=+2.90  tetraspanin 1
+[2026-06-19 14:07:39]   INHBE        FC_DENV=+2.15  FC_ZIKV=+1.73  inhibin subunit beta E
+[2026-06-19 14:07:39]   TSPYL2       FC_DENV=+1.99  FC_ZIKV=+1.11  TSPY like 2
+[2026-06-19 14:07:39]   PLA2G4C      FC_DENV=+1.92  FC_ZIKV=+2.08  phospholipase A2 group IVC
+[2026-06-19 14:07:39]   CXCL1        FC_DENV=+1.59  FC_ZIKV=+1.43  C-X-C motif chemokine ligand 1
+[2026-06-19 14:07:39]   RND1         FC_DENV=+1.58  FC_ZIKV=+1.90  Rho family GTPase 1
+[2026-06-19 14:07:39]   SIRT4        FC_DENV=+1.49  FC_ZIKV=+1.85  sirtuin 4
+[2026-06-19 14:07:39]   CD200R1      FC_DENV=+1.37  FC_ZIKV=+2.10  CD200 receptor 1
+[2026-06-19 14:07:39]   LPXN         FC_DENV=+1.35  FC_ZIKV=+1.94  leupaxin
+[2026-06-19 14:07:39]   CFAP251      FC_DENV=+1.26  FC_ZIKV=+1.40  cilia and flagella associated protein 251
+[2026-06-19 14:07:39]   CREBRF       FC_DENV=+1.22  FC_ZIKV=+1.52  CREB3 regulatory factor
+[2026-06-19 14:07:39]   DUSP1        FC_DENV=+1.01  FC_ZIKV=+1.16  dual specificity phosphatase 1
+[2026-06-19 14:07:39] 
+  ISGs in shared genes   : 0
+[2026-06-19 14:07:39]   Proviral in shared     : 1
+[2026-06-19 14:07:39]   Antiviral in shared    : 0
+[2026-06-19 14:07:39] ✓ Annotated volcanos already saved
+[2026-06-19 14:07:39] ✓ Heatmap already saved
+[2026-06-19 14:07:39]   Annotated DEG table saved → DEGs_DENV_vs_Control_annotated.csv (527 genes)
+[2026-06-19 14:07:39]   Annotated DEG table saved → DEGs_ZIKV_vs_Control_annotated.csv (176 genes)
+[2026-06-19 14:07:39] 
+ISG enrichment in shared upregulated genes:
+[2026-06-19 14:07:39]   ISGs upregulated in DENV : 7 — ['CXCL10', 'IFI6', 'IFITM1', 'IFITM3', 'ISG15', 'MX1', 'OAS1']
+[2026-06-19 14:07:39]   ISGs upregulated in ZIKV : 1 — ['IFIT3']
+[2026-06-19 14:07:39]   ISGs in shared genes     : 0 — []
+[2026-06-19 14:07:39] 
+============================================================
+[2026-06-19 14:07:39] STEP 04 COMPLETE
+[2026-06-19 14:07:39]   Annotation file   : ensembl_annotation.csv
+[2026-06-19 14:07:39]   Annotated DEG DENV: DEGs_DENV_vs_Control_annotated.csv
+[2026-06-19 14:07:39]   Annotated DEG ZIKV: DEGs_ZIKV_vs_Control_annotated.csv
+[2026-06-19 14:07:39]   Shared genes table: shared_DEGs_annotated.csv
+[2026-06-19 14:07:39]   Heatmap + volcanos: /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main / /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/supplementary
+[2026-06-19 14:07:39] 
+Next: run step05_pathway_enrichment.py
+[2026-06-19 14:07:39] ============================================================

@@ -1,0 +1,23 @@
+[2026-06-13 20:56:33] ============================================================
+[2026-06-13 20:56:33] Step 15: GSE118305 DEA — ZIKV Macrophages (Phase 8.1)
+[2026-06-13 20:56:33] ============================================================
+[2026-06-13 20:56:33] Loading FPKM matrix ...
+[2026-06-13 20:56:33]   Shape: (49667, 34)
+[2026-06-13 20:56:33]   RNA-seq columns: 34
+[2026-06-13 20:56:33]   Mock 24h:         5 samples → ['HMDM-RNAseq-mock-24h-4G2neg-p1', 'HMDM-RNAseq-mock-24h-4G2neg-p3', 'HMDM-RNAseq-mock-24h-4G2neg-p4', 'HMDM-RNAseq-mock-24h-4G2neg-p5', 'HMDM-RNAseq-mock-24h-4G2neg-p6']
+[2026-06-13 20:56:33]   ZIKV-infected 24h:5 samples → ['HMDM-RNAseq-FSSADE-24h-4G2pos-p1', 'HMDM-RNAseq-FSSADE-24h-4G2pos-p3', 'HMDM-RNAseq-FSSADE-24h-4G2pos-p4', 'HMDM-RNAseq-FSSADE-24h-4G2pos-p5', 'HMDM-RNAseq-FSSADE-24h-4G2pos-p6']
+[2026-06-13 20:56:33]   ZIKV-bystander 24h:10 samples
+[2026-06-13 20:56:33]   Genes after expression filter: 16641
+[2026-06-13 20:56:33] Running Welch t-test: ZIKV-infected vs Mock (24h) ...
+[2026-06-13 20:56:50]   Total genes tested: 16641
+[2026-06-13 20:56:50]   Significant DEGs (padj<0.05, |lFC|≥1): 580
+[2026-06-13 20:56:50]   Upregulated: 348  Downregulated: 232
+[2026-06-13 20:56:50]   Top upregulated: ['LINC00862', 'AP1S3', 'TNFRSF10D', 'SAV1', 'ISG20', 'RP11-336K24.12', 'PIWIL4', 'TNFAIP6', 'DNAJB9', 'CUL1']
+[2026-06-13 20:56:50]   Saved: DEGs_ZIKV_macrophages_GSE118305.csv
+[2026-06-13 20:56:50] 
+  Discovery genes replicated in GSE118305 macrophages: 0
+[2026-06-13 20:56:50]   Replicated: []
+[2026-06-13 20:56:50]   Replication rate: 0.0%  Fisher p = 1.0000e+00  FE = 0.00×
+[2026-06-13 20:56:51]   Volcano saved → Figure_GSE118305_ZIKV_Macrophages_Volcano.png
+[2026-06-13 20:56:51] 
+STEP 15 COMPLETE

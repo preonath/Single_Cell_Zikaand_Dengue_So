@@ -1,0 +1,7 @@
+gate,phase,test,threshold,result,status,detail
+G1,Phase 3,DEGs per virus ≥ 200,≥ 200,DENV=527 ✓ / ZIKV=176,BORDERLINE,DENV easily passes; ZIKV 24 short of threshold (176/200)
+G2,Phase 4,Shared DEG Fisher p < 0.001,p < 0.001,"p = 2.26e-15, FE = 18.56×",PASSED,Strong overlap enrichment; 15 shared upregulated genes
+G3,Phase 4,FC correlation Pearson r > 0.4,r > 0.4,r = 0.357 overall; r = 0.462 at 48h,MODERATE / PASS at 48h,"Overall: moderate; temporal analysis shows peak at 48h (r=0.462, PASS)"
+G4,Phase 5,Proviral gene enrichment p < 0.05,p < 0.05,p = 1.0 (0/15 shared genes in known lists),NOT PASSED,All 15 shared genes are NOVEL — not in any known proviral/antiviral list
+G5,Phase 6,miRNA target enrichment p < 0.05 (55-set),p < 0.05,hsa-miR-15a-5p p=0.015 (nominal); CREBRF targeted by 10 miRNAs,TREND,Not FDR-significant (small n=15 gene set); 55-set ranks better than 36-set control (0.212 vs 0.275 mean p); CREBRF is miRNA hub
+G6,Phase 8,Validation replication Fisher p < 0.05 or pathway overlap,p < 0.05 or ≥2 shared pathways,"GSE78711 NPCs: p = 1.18e-4, FE = 14.9×, 26.7% rate",STRONG PASS,"4/15 genes replicated in ZIKV NPCs: CREBRF, INHBE, RND1, TSPYL2. GSE94892 PBMCs: 0% (different cell type expected)"

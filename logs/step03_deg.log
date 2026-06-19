@@ -1,0 +1,161 @@
+[2026-06-13 01:31:18] ============================================================
+[2026-06-13 01:31:18] Step 03: Pseudobulk DEG → Shared DEGs → Correlation
+[2026-06-13 01:31:18] ============================================================
+[2026-06-13 01:31:18] Loading processed AnnData ...
+[2026-06-13 01:31:18]   Shape: (2075, 60721)
+[2026-06-13 01:31:18] Building pseudobulk samples (condition × timepoint) ...
+[2026-06-13 01:31:19]   Control_4h: 164 cells aggregated, total counts = 115,418,280
+[2026-06-13 01:31:19]   Control_12h: 176 cells aggregated, total counts = 93,856,880
+[2026-06-13 01:31:19]   Control_24h: 177 cells aggregated, total counts = 66,293,964
+[2026-06-13 01:31:19]   Control_48h: 182 cells aggregated, total counts = 65,206,192
+[2026-06-13 01:31:19]   DENV_4h: 228 cells aggregated, total counts = 156,907,680
+[2026-06-13 01:31:19]   DENV_12h: 231 cells aggregated, total counts = 108,467,072
+[2026-06-13 01:31:19]   DENV_24h: 261 cells aggregated, total counts = 46,326,356
+[2026-06-13 01:31:19]   DENV_48h: 209 cells aggregated, total counts = 97,881,976
+[2026-06-13 01:31:19]   ZIKV_4h: 100 cells aggregated, total counts = 55,463,736
+[2026-06-13 01:31:19]   ZIKV_12h: 110 cells aggregated, total counts = 93,934,600
+[2026-06-13 01:31:19]   ZIKV_24h: 117 cells aggregated, total counts = 70,891,672
+[2026-06-13 01:31:19]   ZIKV_48h: 120 cells aggregated, total counts = 55,736,360
+[2026-06-13 01:31:19] Pseudobulk matrix: 12 samples × 60721 genes
+[2026-06-13 01:31:19] 
+            condition timepoint  n_cells
+sample                                  
+Control_4h    Control        4h      164
+Control_12h   Control       12h      176
+Control_24h   Control       24h      177
+Control_48h   Control       48h      182
+DENV_4h          DENV        4h      228
+DENV_12h         DENV       12h      231
+DENV_24h         DENV       24h      261
+DENV_48h         DENV       48h      209
+ZIKV_4h          ZIKV        4h      100
+ZIKV_12h         ZIKV       12h      110
+ZIKV_24h         ZIKV       24h      117
+ZIKV_48h         ZIKV       48h      120
+
+[2026-06-13 01:31:19] 
+Running DESeq2: DENV vs Control (combined model) ...
+[2026-06-13 01:31:19]   Samples: 8, Genes after filtering: 26906
+[2026-06-13 01:31:31]   Significant DEGs (|log2FC|>=1.0, padj<0.05): 527
+[2026-06-13 01:31:32] 
+Running DESeq2: ZIKV vs Control (combined model) ...
+[2026-06-13 01:31:32]   Samples: 8, Genes after filtering: 25166
+[2026-06-13 01:31:42]   Significant DEGs (|log2FC|>=1.0, padj<0.05): 176
+[2026-06-13 01:31:42]   Volcano saved → volcano_DENV
+[2026-06-13 01:31:43]   Volcano saved → volcano_ZIKV
+[2026-06-13 01:31:43] 
+Classifying DEGs ...
+[2026-06-13 01:31:43]   DENV — Up: 300, Down: 227, Total: 527
+[2026-06-13 01:31:43]   ZIKV — Up: 66, Down: 110, Total: 176
+[2026-06-13 01:31:43] 
+Shared DEG Summary:
+[2026-06-13 01:31:43]   Shared up     : 15
+[2026-06-13 01:31:43]   Shared down   : 0
+[2026-06-13 01:31:43]   Shared total  : 15
+[2026-06-13 01:31:43]   Discordant    : 32
+[2026-06-13 01:31:43]   DENV only     : 480
+[2026-06-13 01:31:43]   ZIKV only     : 129
+[2026-06-13 01:31:43] 
+  Fisher test (upregulated):
+[2026-06-13 01:31:43]     Expected by chance : 0.8
+[2026-06-13 01:31:43]     Fold enrichment    : 18.56x
+[2026-06-13 01:31:43]     Odds ratio         : 24.92
+[2026-06-13 01:31:43]     p-value            : 2.26e-15
+[2026-06-13 01:31:43] 
+Generating fold-change correlation plot ...
+[2026-06-13 01:31:43]   Pearson r  = 0.3569, p = 0.00e+00
+[2026-06-13 01:31:43]   Spearman r = 0.1970, p = 8.36e-213
+[2026-06-13 01:31:44]   Fold-change correlation plot saved → FIG_MAIN
+[2026-06-13 01:31:44] 
+  GATE G3 — Pearson r = 0.357
+[2026-06-13 01:31:44]   ⚠ MODERATE SIGNAL — proceed, note as moderate convergence
+[2026-06-13 01:31:44] Generating DEG overlap figure ...
+[2026-06-13 01:31:44]   DEG overlap figure saved → FIG_MAIN
+[2026-06-13 01:31:44] 
+============================================================
+[2026-06-13 01:31:44] STEP 03 COMPLETE — Summary:
+[2026-06-13 01:31:44]   DENV DEGs (up/down): 300 / 227
+[2026-06-13 01:31:44]   ZIKV DEGs (up/down): 66 / 110
+[2026-06-13 01:31:44]   Shared up           : 15
+[2026-06-13 01:31:44]   Shared down         : 0
+[2026-06-13 01:31:44]   Shared total        : 15
+[2026-06-13 01:31:44]   Pearson r           : 0.3569011501242393
+[2026-06-13 01:31:44]   Fisher p (up)       : 2.257856221922103e-15
+[2026-06-13 01:31:44]   Fold enrichment     : 18.55681818181818
+[2026-06-13 01:31:44] 
+  DEG tables  → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/01_processed_data/deg_tables
+[2026-06-13 01:31:44]   Shared lists→ /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase3_shared_degs
+[2026-06-13 01:31:44]   Figures     → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main
+[2026-06-13 01:31:44] 
+Next: run step04_gene_annotation.py
+[2026-06-13 01:31:44] ============================================================
+[2026-06-19 14:07:28] ============================================================
+[2026-06-19 14:07:28] Step 03: Pseudobulk DEG → Shared DEGs → Correlation
+[2026-06-19 14:07:28] ============================================================
+[2026-06-19 14:07:28] Loading processed AnnData ...
+[2026-06-19 14:07:28]   Shape: (2075, 60721)
+[2026-06-19 14:07:28] ✓ Pseudobulk already built — loading ...
+[2026-06-19 14:07:28]   12 samples × 60721 genes
+[2026-06-19 14:07:28] ✓ DENV DEGs already computed — loading ...
+[2026-06-19 14:07:28] ✓ ZIKV DEGs already computed — loading ...
+[2026-06-19 14:07:28] ✓ Volcano plots already saved
+[2026-06-19 14:07:28] 
+Classifying DEGs ...
+[2026-06-19 14:07:28]   DENV — Up: 300, Down: 227, Total: 527
+[2026-06-19 14:07:28]   ZIKV — Up: 66, Down: 110, Total: 176
+[2026-06-19 14:07:28] ✓ Shared DEG analysis already done — loading ...
+[2026-06-19 14:07:28] ✓ FC correlation done — Pearson r = 0.3569011501242393
+[2026-06-19 14:07:28] ✓ Overlap figure already saved
+[2026-06-19 14:07:28] 
+============================================================
+[2026-06-19 14:07:28] STEP 03 COMPLETE — Summary:
+[2026-06-19 14:07:28]   DENV DEGs (up/down): 300 / 227
+[2026-06-19 14:07:28]   ZIKV DEGs (up/down): 66 / 110
+[2026-06-19 14:07:28]   Shared up           : 15
+[2026-06-19 14:07:28]   Shared down         : 0
+[2026-06-19 14:07:28]   Shared total        : 15
+[2026-06-19 14:07:28]   Pearson r           : 0.3569011501242393
+[2026-06-19 14:07:28]   Fisher p (up)       : 2.257856221922103e-15
+[2026-06-19 14:07:28]   Fold enrichment     : 18.55681818181818
+[2026-06-19 14:07:28] 
+  DEG tables  → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/01_processed_data/deg_tables
+[2026-06-19 14:07:28]   Shared lists→ /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase3_shared_degs
+[2026-06-19 14:07:28]   Figures     → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main
+[2026-06-19 14:07:28] 
+Next: run step04_gene_annotation.py
+[2026-06-19 14:07:28] ============================================================
+[2026-06-19 14:07:28] ============================================================
+[2026-06-19 14:07:28] Step 03: Pseudobulk DEG → Shared DEGs → Correlation
+[2026-06-19 14:07:28] ============================================================
+[2026-06-19 14:07:28] Loading processed AnnData ...
+[2026-06-19 14:07:28]   Shape: (2075, 60721)
+[2026-06-19 14:07:28] ✓ Pseudobulk already built — loading ...
+[2026-06-19 14:07:28]   12 samples × 60721 genes
+[2026-06-19 14:07:28] ✓ DENV DEGs already computed — loading ...
+[2026-06-19 14:07:28] ✓ ZIKV DEGs already computed — loading ...
+[2026-06-19 14:07:28] ✓ Volcano plots already saved
+[2026-06-19 14:07:28] 
+Classifying DEGs ...
+[2026-06-19 14:07:28]   DENV — Up: 300, Down: 227, Total: 527
+[2026-06-19 14:07:28]   ZIKV — Up: 66, Down: 110, Total: 176
+[2026-06-19 14:07:28] ✓ Shared DEG analysis already done — loading ...
+[2026-06-19 14:07:28] ✓ FC correlation done — Pearson r = 0.3569011501242393
+[2026-06-19 14:07:28] ✓ Overlap figure already saved
+[2026-06-19 14:07:28] 
+============================================================
+[2026-06-19 14:07:28] STEP 03 COMPLETE — Summary:
+[2026-06-19 14:07:28]   DENV DEGs (up/down): 300 / 227
+[2026-06-19 14:07:28]   ZIKV DEGs (up/down): 66 / 110
+[2026-06-19 14:07:28]   Shared up           : 15
+[2026-06-19 14:07:28]   Shared down         : 0
+[2026-06-19 14:07:28]   Shared total        : 15
+[2026-06-19 14:07:28]   Pearson r           : 0.3569011501242393
+[2026-06-19 14:07:28]   Fisher p (up)       : 2.257856221922103e-15
+[2026-06-19 14:07:28]   Fold enrichment     : 18.55681818181818
+[2026-06-19 14:07:28] 
+  DEG tables  → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/01_processed_data/deg_tables
+[2026-06-19 14:07:28]   Shared lists→ /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase3_shared_degs
+[2026-06-19 14:07:28]   Figures     → /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main
+[2026-06-19 14:07:28] 
+Next: run step04_gene_annotation.py
+[2026-06-19 14:07:28] ============================================================

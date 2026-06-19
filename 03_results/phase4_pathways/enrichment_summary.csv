@@ -1,0 +1,31 @@
+gene_list,library,n_sig,n_total,top_term,top_padj
+DENV_up,GO_BP,5,1367,Cellular Response To Copper Ion (GO:0071280),9.315481557764656e-06
+DENV_up,GO_MF,0,245,Chemokine Activity (GO:0008009),0.0830279020305791
+DENV_up,GO_CC,0,146,Cornified Envelope (GO:0001533),0.7941127600853173
+DENV_up,KEGG,2,192,Mineral absorption,0.0332706150772804
+DENV_up,Reactome,5,537,tRNA Processing in the Mitochondrion,5.917114954256391e-05
+DENV_up,Hallmarks,11,40,TNF-alpha Signaling via NF-kB,6.781053204455823e-06
+DENV_down,GO_BP,1,1103,DNA-templated DNA Replication (GO:0006261),0.0104877980230843
+DENV_down,GO_MF,0,223,Insulin-Like Growth Factor II Binding (GO:0031995),0.1887078560878703
+DENV_down,GO_CC,3,116,CMG Complex (GO:0071162),0.0096224300193744
+DENV_down,KEGG,1,176,Cell cycle,0.0107735181698475
+DENV_down,Reactome,27,682,"Cell Cycle, Mitotic",0.0001436214813829
+DENV_down,Hallmarks,2,42,E2F Targets,1.6304353362924374e-06
+ZIKV_up,GO_BP,34,725,Peptidyl-Lysine Deacetylation (GO:0034983),0.0007857347265869
+ZIKV_up,GO_MF,18,110,RNA Polymerase II Transcription Regulatory Region Sequence-Specific DNA Binding (GO:0000977),0.00060082757492
+ZIKV_up,GO_CC,0,80,Intracellular Membrane-Bounded Organelle (GO:0043231),0.4366385042812943
+ZIKV_up,KEGG,4,131,Herpes simplex virus 1 infection,0.0019321980149934
+ZIKV_up,Reactome,0,270,Generic Transcription Pathway,0.0991043588856525
+ZIKV_up,Hallmarks,9,26,TNF-alpha Signaling via NF-kB,1.9657404556117283e-08
+ZIKV_down,GO_BP,13,692,Cellular Response To Zinc Ion (GO:0071294),6.397981427810779e-08
+ZIKV_down,GO_MF,5,147,Zinc Ion Binding (GO:0008270),0.0002908159399698
+ZIKV_down,GO_CC,0,79,Basolateral Plasma Membrane (GO:0016323),0.4925658600436862
+ZIKV_down,KEGG,3,101,Mineral absorption,2.9766776606799643e-06
+ZIKV_down,Reactome,10,464,Metallothioneins Bind Metals,7.945453485804521e-07
+ZIKV_down,Hallmarks,0,31,Estrogen Response Early,0.3108526486832749
+shared_up,GO_BP,66,205,Cellular Response To Chemokine (GO:1990869),0.0020224615418842
+shared_up,GO_MF,12,42,Cytokine Activity (GO:0005125),0.0088186289163695
+shared_up,GO_CC,0,29,Podosome (GO:0002102),0.1926437779291105
+shared_up,KEGG,5,54,NF-kappa B signaling pathway,0.0032068252923184
+shared_up,Reactome,2,81,Interleukin-10 Signaling,0.03313667930682
+shared_up,Hallmarks,3,11,TNF-alpha Signaling via NF-kB,0.0001336500160108

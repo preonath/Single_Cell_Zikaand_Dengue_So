@@ -1,0 +1,411 @@
+[2026-06-13 19:40:09] ============================================================
+[2026-06-13 19:40:09] Step 06: Wetlab Validation
+[2026-06-13 19:40:09] ============================================================
+[2026-06-13 19:40:09] 
+Loading wetlab gene lists ...
+[2026-06-13 19:40:09]   Loaded DENV_antiviral: 20 genes
+[2026-06-13 19:40:09]   Loaded DENV_proviral: 26 genes
+[2026-06-13 19:40:09]   Loaded ZIKV_antiviral: 28 genes
+[2026-06-13 19:40:09]   Loaded ZIKV_proviral: 71 genes
+[2026-06-13 19:40:09]   Loaded medium_conf: 24 genes
+[2026-06-13 19:40:09] 
+Loading computational results ...
+[2026-06-13 19:40:09]   Computational: DENV up=282 dn=216
+[2026-06-13 19:40:09]   Computational: ZIKV up=64 dn=106
+[2026-06-13 19:40:09]   Shared upregulated: 15
+[2026-06-13 19:40:09] 
+── A: Cross-referencing computational DEGs vs wetlab lists ─────
+[2026-06-13 19:40:09]   DENV Up vs DENV_antiviral:
+[2026-06-13 19:40:09]     wetlab=20  comp=282  overlap=3
+[2026-06-13 19:40:09]     OVERLAP genes: ['IFI6', 'IFITM1', 'IFITM3']
+[2026-06-13 19:40:09]   DENV Up vs DENV_proviral:
+[2026-06-13 19:40:09]     wetlab=26  comp=282  overlap=0
+[2026-06-13 19:40:09]   DENV Up vs ZIKV_antiviral:
+[2026-06-13 19:40:09]     wetlab=28  comp=282  overlap=5
+[2026-06-13 19:40:09]     OVERLAP genes: ['IFI6', 'IFITM1', 'IFITM3', 'ISG15', 'MX1']
+[2026-06-13 19:40:09]   DENV Up vs ZIKV_proviral:
+[2026-06-13 19:40:09]     wetlab=71  comp=282  overlap=2
+[2026-06-13 19:40:09]     OVERLAP genes: ['ISG15', 'RRBP1']
+[2026-06-13 19:40:09]   DENV Down vs DENV_antiviral:
+[2026-06-13 19:40:09]     wetlab=20  comp=216  overlap=0
+[2026-06-13 19:40:09]   DENV Down vs DENV_proviral:
+[2026-06-13 19:40:09]     wetlab=26  comp=216  overlap=1
+[2026-06-13 19:40:09]     OVERLAP genes: ['DGAT2']
+[2026-06-13 19:40:09]   ZIKV Up vs ZIKV_antiviral:
+[2026-06-13 19:40:09]     wetlab=28  comp=64  overlap=0
+[2026-06-13 19:40:09]   ZIKV Up vs ZIKV_proviral:
+[2026-06-13 19:40:09]     wetlab=71  comp=64  overlap=0
+[2026-06-13 19:40:09]   ZIKV Up vs DENV_antiviral:
+[2026-06-13 19:40:09]     wetlab=20  comp=64  overlap=0
+[2026-06-13 19:40:09]   ZIKV Up vs DENV_proviral:
+[2026-06-13 19:40:09]     wetlab=26  comp=64  overlap=0
+[2026-06-13 19:40:09]   ZIKV Down vs ZIKV_antiviral:
+[2026-06-13 19:40:09]     wetlab=28  comp=106  overlap=0
+[2026-06-13 19:40:09]   ZIKV Down vs ZIKV_proviral:
+[2026-06-13 19:40:09]     wetlab=71  comp=106  overlap=1
+[2026-06-13 19:40:09]     OVERLAP genes: ['RRBP1']
+[2026-06-13 19:40:09]   Shared Up vs DENV_antiviral:
+[2026-06-13 19:40:09]     wetlab=20  comp=15  overlap=0
+[2026-06-13 19:40:09]   Shared Up vs DENV_proviral:
+[2026-06-13 19:40:09]     wetlab=26  comp=15  overlap=0
+[2026-06-13 19:40:09]   Shared Up vs ZIKV_antiviral:
+[2026-06-13 19:40:09]     wetlab=28  comp=15  overlap=0
+[2026-06-13 19:40:09]   Shared Up vs ZIKV_proviral:
+[2026-06-13 19:40:09]     wetlab=71  comp=15  overlap=0
+[2026-06-13 19:40:09]   Shared Up vs medium_conf:
+[2026-06-13 19:40:09]     wetlab=24  comp=15  overlap=0
+[2026-06-13 19:40:09] 
+  Combined overlap table: 12 rows → validation_overlap_all.csv
+[2026-06-13 19:40:09] 
+── B: Novel candidates (computational, not in wetlab) ───────────
+[2026-06-13 19:40:09] 
+  Novel shared upregulated (not in any wetlab list): 15
+[2026-06-13 19:40:09]     • BIRC3
+[2026-06-13 19:40:09]     • CCL4
+[2026-06-13 19:40:09]     • CD200R1
+[2026-06-13 19:40:09]     • CFAP251
+[2026-06-13 19:40:09]     • CREBRF
+[2026-06-13 19:40:09]     • CXCL1
+[2026-06-13 19:40:09]     • DUSP1
+[2026-06-13 19:40:09]     • INHBE
+[2026-06-13 19:40:09]     • LPXN
+[2026-06-13 19:40:09]     • PLA2G4C
+[2026-06-13 19:40:09]     • RND1
+[2026-06-13 19:40:09]     • SIRT4
+[2026-06-13 19:40:09]     • TSPAN1
+[2026-06-13 19:40:09]     • TSPYL2
+[2026-06-13 19:40:09]     • VNN3P
+[2026-06-13 19:40:09]   Novel DENV up (not in any wetlab list): 276 genes
+[2026-06-13 19:40:09]   Novel ZIKV up (not in any wetlab list): 64 genes
+[2026-06-13 19:40:09] 
+── C: Validation matrix heatmap ────────────────────────────────
+[2026-06-13 19:40:10]   Validation matrix → Figure_Validation_Matrix
+[2026-06-13 19:40:10] 
+── D: Overlap bar chart ────────────────────────────────────────
+[2026-06-13 19:40:10]   Overlap bar chart → barplot_wetlab_overlaps
+[2026-06-13 19:40:10] 
+── E: Venn diagram ─────────────────────────────────────────────
+[2026-06-13 19:40:10]   Venn diagram → Figure_SharedGenes_vs_Wetlab_Venn
+[2026-06-13 19:40:10] 
+── F: Detailed match report ────────────────────────────────────
+[2026-06-13 19:40:10] 
+  Shared gene wetlab status:
+[2026-06-13 19:40:10]   Gene          FC_DENV  FC_ZIKV  Wetlab  
+[2026-06-13 19:40:10]   ------------ -------- --------  ------------------------------
+[2026-06-13 19:40:10]   CCL4            +4.97    +5.57  NOVEL
+[2026-06-13 19:40:10]   BIRC3           +3.28    +3.44  NOVEL
+[2026-06-13 19:40:10]   VNN3P           +2.72    +2.50  NOVEL
+[2026-06-13 19:40:10]   TSPAN1          +2.31    +2.90  NOVEL
+[2026-06-13 19:40:10]   INHBE           +2.15    +1.73  NOVEL
+[2026-06-13 19:40:10]   TSPYL2          +1.99    +1.11  NOVEL
+[2026-06-13 19:40:10]   PLA2G4C         +1.92    +2.08  NOVEL
+[2026-06-13 19:40:10]   CXCL1           +1.59    +1.43  NOVEL
+[2026-06-13 19:40:10]   RND1            +1.58    +1.90  NOVEL
+[2026-06-13 19:40:10]   SIRT4           +1.49    +1.85  NOVEL
+[2026-06-13 19:40:10]   CD200R1         +1.37    +2.10  NOVEL
+[2026-06-13 19:40:10]   LPXN            +1.35    +1.94  NOVEL
+[2026-06-13 19:40:10]   CFAP251         +1.26    +1.40  NOVEL
+[2026-06-13 19:40:10]   CREBRF          +1.22    +1.52  NOVEL
+[2026-06-13 19:40:10]   DUSP1           +1.01    +1.16  NOVEL
+[2026-06-13 19:40:10] 
+── G: Summary ──────────────────────────────────────────────────
+[2026-06-13 19:40:10]   Shared genes confirmed as antiviral   : 0
+[2026-06-13 19:40:10]   Shared genes confirmed as proviral    : 0
+[2026-06-13 19:40:10]   Shared genes in medium-confidence     : 0
+[2026-06-13 19:40:10]   Shared genes NOVEL (not in wetlab)    : 15
+[2026-06-13 19:40:10] 
+  DENV upregulated vs DENV antiviral wetlab:
+[2026-06-13 19:40:10]     Overlap: 3 genes — ['IFI6', 'IFITM1', 'IFITM3']
+[2026-06-13 19:40:10] 
+  DENV upregulated vs DENV proviral wetlab:
+[2026-06-13 19:40:10]     Overlap: 0 genes — []
+[2026-06-13 19:40:10] 
+  ZIKV upregulated vs ZIKV antiviral wetlab:
+[2026-06-13 19:40:10]     Overlap: 0 genes — []
+[2026-06-13 19:40:10] 
+  ZIKV upregulated vs ZIKV proviral wetlab:
+[2026-06-13 19:40:10]     Overlap: 0 genes — []
+[2026-06-13 19:40:10] 
+============================================================
+[2026-06-13 19:40:10] STEP 06 COMPLETE
+[2026-06-13 19:40:10]   Overlap table     : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase5_validation/validation_overlap_all.csv
+[2026-06-13 19:40:10]   Novel candidates  : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase5_validation/novel_candidates_shared.csv
+[2026-06-13 19:40:10]   Shared+wetlab annot: /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase5_validation/shared_DEGs_wetlab_annotated.csv
+[2026-06-13 19:40:10]   Figures           : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main
+[2026-06-13 19:40:10] 
+Next: review SESSION_LOG.md for summary + pipeline status
+[2026-06-13 19:40:10] ============================================================
+[2026-06-19 14:11:10] ============================================================
+[2026-06-19 14:11:10] Step 06: Wetlab Validation
+[2026-06-19 14:11:10] ============================================================
+[2026-06-19 14:11:10] 
+Loading wetlab gene lists ...
+[2026-06-19 14:11:10]   Loaded DENV_antiviral: 20 genes
+[2026-06-19 14:11:10]   Loaded DENV_proviral: 26 genes
+[2026-06-19 14:11:10]   Loaded ZIKV_antiviral: 28 genes
+[2026-06-19 14:11:10]   Loaded ZIKV_proviral: 71 genes
+[2026-06-19 14:11:10]   Loaded medium_conf: 24 genes
+[2026-06-19 14:11:10] 
+Loading computational results ...
+[2026-06-19 14:11:10]   Computational: DENV up=282 dn=216
+[2026-06-19 14:11:10]   Computational: ZIKV up=64 dn=106
+[2026-06-19 14:11:10]   Shared upregulated: 15
+[2026-06-19 14:11:10] 
+── A: Cross-referencing computational DEGs vs wetlab lists ─────
+[2026-06-19 14:11:10]   DENV Up vs DENV_antiviral:
+[2026-06-19 14:11:10]     wetlab=20  comp=282  overlap=3
+[2026-06-19 14:11:10]     OVERLAP genes: ['IFI6', 'IFITM1', 'IFITM3']
+[2026-06-19 14:11:10]   DENV Up vs DENV_proviral:
+[2026-06-19 14:11:10]     wetlab=26  comp=282  overlap=0
+[2026-06-19 14:11:10]   DENV Up vs ZIKV_antiviral:
+[2026-06-19 14:11:10]     wetlab=28  comp=282  overlap=5
+[2026-06-19 14:11:10]     OVERLAP genes: ['IFI6', 'IFITM1', 'IFITM3', 'ISG15', 'MX1']
+[2026-06-19 14:11:10]   DENV Up vs ZIKV_proviral:
+[2026-06-19 14:11:10]     wetlab=71  comp=282  overlap=2
+[2026-06-19 14:11:10]     OVERLAP genes: ['ISG15', 'RRBP1']
+[2026-06-19 14:11:10]   DENV Down vs DENV_antiviral:
+[2026-06-19 14:11:10]     wetlab=20  comp=216  overlap=0
+[2026-06-19 14:11:10]   DENV Down vs DENV_proviral:
+[2026-06-19 14:11:10]     wetlab=26  comp=216  overlap=1
+[2026-06-19 14:11:10]     OVERLAP genes: ['DGAT2']
+[2026-06-19 14:11:10]   ZIKV Up vs ZIKV_antiviral:
+[2026-06-19 14:11:10]     wetlab=28  comp=64  overlap=0
+[2026-06-19 14:11:10]   ZIKV Up vs ZIKV_proviral:
+[2026-06-19 14:11:10]     wetlab=71  comp=64  overlap=0
+[2026-06-19 14:11:10]   ZIKV Up vs DENV_antiviral:
+[2026-06-19 14:11:10]     wetlab=20  comp=64  overlap=0
+[2026-06-19 14:11:10]   ZIKV Up vs DENV_proviral:
+[2026-06-19 14:11:10]     wetlab=26  comp=64  overlap=0
+[2026-06-19 14:11:10]   ZIKV Down vs ZIKV_antiviral:
+[2026-06-19 14:11:10]     wetlab=28  comp=106  overlap=0
+[2026-06-19 14:11:10]   ZIKV Down vs ZIKV_proviral:
+[2026-06-19 14:11:10]     wetlab=71  comp=106  overlap=1
+[2026-06-19 14:11:10]     OVERLAP genes: ['RRBP1']
+[2026-06-19 14:11:10]   Shared Up vs DENV_antiviral:
+[2026-06-19 14:11:10]     wetlab=20  comp=15  overlap=0
+[2026-06-19 14:11:10]   Shared Up vs DENV_proviral:
+[2026-06-19 14:11:10]     wetlab=26  comp=15  overlap=0
+[2026-06-19 14:11:10]   Shared Up vs ZIKV_antiviral:
+[2026-06-19 14:11:10]     wetlab=28  comp=15  overlap=0
+[2026-06-19 14:11:10]   Shared Up vs ZIKV_proviral:
+[2026-06-19 14:11:10]     wetlab=71  comp=15  overlap=0
+[2026-06-19 14:11:10]   Shared Up vs medium_conf:
+[2026-06-19 14:11:10]     wetlab=24  comp=15  overlap=0
+[2026-06-19 14:11:10] 
+  Combined overlap table: 12 rows → validation_overlap_all.csv
+[2026-06-19 14:11:10] 
+── B: Novel candidates (computational, not in wetlab) ───────────
+[2026-06-19 14:11:10] 
+  Novel shared upregulated (not in any wetlab list): 15
+[2026-06-19 14:11:10]     • BIRC3
+[2026-06-19 14:11:10]     • CCL4
+[2026-06-19 14:11:10]     • CD200R1
+[2026-06-19 14:11:10]     • CFAP251
+[2026-06-19 14:11:10]     • CREBRF
+[2026-06-19 14:11:10]     • CXCL1
+[2026-06-19 14:11:10]     • DUSP1
+[2026-06-19 14:11:10]     • INHBE
+[2026-06-19 14:11:10]     • LPXN
+[2026-06-19 14:11:10]     • PLA2G4C
+[2026-06-19 14:11:10]     • RND1
+[2026-06-19 14:11:10]     • SIRT4
+[2026-06-19 14:11:10]     • TSPAN1
+[2026-06-19 14:11:10]     • TSPYL2
+[2026-06-19 14:11:10]     • VNN3P
+[2026-06-19 14:11:10]   Novel DENV up (not in any wetlab list): 276 genes
+[2026-06-19 14:11:10]   Novel ZIKV up (not in any wetlab list): 64 genes
+[2026-06-19 14:11:10] 
+── C: Validation matrix heatmap ────────────────────────────────
+[2026-06-19 14:11:10]   Validation matrix → Figure_Validation_Matrix
+[2026-06-19 14:11:10] 
+── D: Overlap bar chart ────────────────────────────────────────
+[2026-06-19 14:11:10]   Overlap bar chart → barplot_wetlab_overlaps
+[2026-06-19 14:11:10] 
+── E: Venn diagram ─────────────────────────────────────────────
+[2026-06-19 14:11:10]   Venn diagram → Figure_SharedGenes_vs_Wetlab_Venn
+[2026-06-19 14:11:10] 
+── F: Detailed match report ────────────────────────────────────
+[2026-06-19 14:11:10] 
+  Shared gene wetlab status:
+[2026-06-19 14:11:10]   Gene          FC_DENV  FC_ZIKV  Wetlab  
+[2026-06-19 14:11:10]   ------------ -------- --------  ------------------------------
+[2026-06-19 14:11:10]   CCL4            +4.97    +5.57  NOVEL
+[2026-06-19 14:11:10]   BIRC3           +3.28    +3.44  NOVEL
+[2026-06-19 14:11:10]   VNN3P           +2.72    +2.50  NOVEL
+[2026-06-19 14:11:10]   TSPAN1          +2.31    +2.90  NOVEL
+[2026-06-19 14:11:10]   INHBE           +2.15    +1.73  NOVEL
+[2026-06-19 14:11:10]   TSPYL2          +1.99    +1.11  NOVEL
+[2026-06-19 14:11:10]   PLA2G4C         +1.92    +2.08  NOVEL
+[2026-06-19 14:11:10]   CXCL1           +1.59    +1.43  NOVEL
+[2026-06-19 14:11:10]   RND1            +1.58    +1.90  NOVEL
+[2026-06-19 14:11:10]   SIRT4           +1.49    +1.85  NOVEL
+[2026-06-19 14:11:10]   CD200R1         +1.37    +2.10  NOVEL
+[2026-06-19 14:11:10]   LPXN            +1.35    +1.94  NOVEL
+[2026-06-19 14:11:10]   CFAP251         +1.26    +1.40  NOVEL
+[2026-06-19 14:11:10]   CREBRF          +1.22    +1.52  NOVEL
+[2026-06-19 14:11:10]   DUSP1           +1.01    +1.16  NOVEL
+[2026-06-19 14:11:10] 
+── G: Summary ──────────────────────────────────────────────────
+[2026-06-19 14:11:10]   Shared genes confirmed as antiviral   : 0
+[2026-06-19 14:11:10]   Shared genes confirmed as proviral    : 0
+[2026-06-19 14:11:10]   Shared genes in medium-confidence     : 0
+[2026-06-19 14:11:10]   Shared genes NOVEL (not in wetlab)    : 15
+[2026-06-19 14:11:10] 
+  DENV upregulated vs DENV antiviral wetlab:
+[2026-06-19 14:11:10]     Overlap: 3 genes — ['IFI6', 'IFITM1', 'IFITM3']
+[2026-06-19 14:11:10] 
+  DENV upregulated vs DENV proviral wetlab:
+[2026-06-19 14:11:10]     Overlap: 0 genes — []
+[2026-06-19 14:11:10] 
+  ZIKV upregulated vs ZIKV antiviral wetlab:
+[2026-06-19 14:11:10]     Overlap: 0 genes — []
+[2026-06-19 14:11:10] 
+  ZIKV upregulated vs ZIKV proviral wetlab:
+[2026-06-19 14:11:10]     Overlap: 0 genes — []
+[2026-06-19 14:11:10] 
+============================================================
+[2026-06-19 14:11:10] STEP 06 COMPLETE
+[2026-06-19 14:11:10]   Overlap table     : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase5_validation/validation_overlap_all.csv
+[2026-06-19 14:11:10]   Novel candidates  : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase5_validation/novel_candidates_shared.csv
+[2026-06-19 14:11:10]   Shared+wetlab annot: /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase5_validation/shared_DEGs_wetlab_annotated.csv
+[2026-06-19 14:11:10]   Figures           : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main
+[2026-06-19 14:11:10] 
+Next: review SESSION_LOG.md for summary + pipeline status
+[2026-06-19 14:11:10] ============================================================
+[2026-06-19 14:11:10] ============================================================
+[2026-06-19 14:11:10] Step 06: Wetlab Validation
+[2026-06-19 14:11:10] ============================================================
+[2026-06-19 14:11:10] 
+Loading wetlab gene lists ...
+[2026-06-19 14:11:10]   Loaded DENV_antiviral: 20 genes
+[2026-06-19 14:11:10]   Loaded DENV_proviral: 26 genes
+[2026-06-19 14:11:10]   Loaded ZIKV_antiviral: 28 genes
+[2026-06-19 14:11:10]   Loaded ZIKV_proviral: 71 genes
+[2026-06-19 14:11:10]   Loaded medium_conf: 24 genes
+[2026-06-19 14:11:10] 
+Loading computational results ...
+[2026-06-19 14:11:10]   Computational: DENV up=282 dn=216
+[2026-06-19 14:11:10]   Computational: ZIKV up=64 dn=106
+[2026-06-19 14:11:10]   Shared upregulated: 15
+[2026-06-19 14:11:10] 
+── A: Cross-referencing computational DEGs vs wetlab lists ─────
+[2026-06-19 14:11:10]   DENV Up vs DENV_antiviral:
+[2026-06-19 14:11:10]     wetlab=20  comp=282  overlap=3
+[2026-06-19 14:11:10]     OVERLAP genes: ['IFI6', 'IFITM1', 'IFITM3']
+[2026-06-19 14:11:10]   DENV Up vs DENV_proviral:
+[2026-06-19 14:11:10]     wetlab=26  comp=282  overlap=0
+[2026-06-19 14:11:10]   DENV Up vs ZIKV_antiviral:
+[2026-06-19 14:11:10]     wetlab=28  comp=282  overlap=5
+[2026-06-19 14:11:10]     OVERLAP genes: ['IFI6', 'IFITM1', 'IFITM3', 'ISG15', 'MX1']
+[2026-06-19 14:11:10]   DENV Up vs ZIKV_proviral:
+[2026-06-19 14:11:10]     wetlab=71  comp=282  overlap=2
+[2026-06-19 14:11:10]     OVERLAP genes: ['ISG15', 'RRBP1']
+[2026-06-19 14:11:10]   DENV Down vs DENV_antiviral:
+[2026-06-19 14:11:10]     wetlab=20  comp=216  overlap=0
+[2026-06-19 14:11:10]   DENV Down vs DENV_proviral:
+[2026-06-19 14:11:10]     wetlab=26  comp=216  overlap=1
+[2026-06-19 14:11:10]     OVERLAP genes: ['DGAT2']
+[2026-06-19 14:11:10]   ZIKV Up vs ZIKV_antiviral:
+[2026-06-19 14:11:10]     wetlab=28  comp=64  overlap=0
+[2026-06-19 14:11:10]   ZIKV Up vs ZIKV_proviral:
+[2026-06-19 14:11:10]     wetlab=71  comp=64  overlap=0
+[2026-06-19 14:11:10]   ZIKV Up vs DENV_antiviral:
+[2026-06-19 14:11:10]     wetlab=20  comp=64  overlap=0
+[2026-06-19 14:11:10]   ZIKV Up vs DENV_proviral:
+[2026-06-19 14:11:10]     wetlab=26  comp=64  overlap=0
+[2026-06-19 14:11:10]   ZIKV Down vs ZIKV_antiviral:
+[2026-06-19 14:11:10]     wetlab=28  comp=106  overlap=0
+[2026-06-19 14:11:10]   ZIKV Down vs ZIKV_proviral:
+[2026-06-19 14:11:10]     wetlab=71  comp=106  overlap=1
+[2026-06-19 14:11:10]     OVERLAP genes: ['RRBP1']
+[2026-06-19 14:11:10]   Shared Up vs DENV_antiviral:
+[2026-06-19 14:11:10]     wetlab=20  comp=15  overlap=0
+[2026-06-19 14:11:10]   Shared Up vs DENV_proviral:
+[2026-06-19 14:11:10]     wetlab=26  comp=15  overlap=0
+[2026-06-19 14:11:10]   Shared Up vs ZIKV_antiviral:
+[2026-06-19 14:11:10]     wetlab=28  comp=15  overlap=0
+[2026-06-19 14:11:10]   Shared Up vs ZIKV_proviral:
+[2026-06-19 14:11:10]     wetlab=71  comp=15  overlap=0
+[2026-06-19 14:11:10]   Shared Up vs medium_conf:
+[2026-06-19 14:11:10]     wetlab=24  comp=15  overlap=0
+[2026-06-19 14:11:10] 
+  Combined overlap table: 12 rows → validation_overlap_all.csv
+[2026-06-19 14:11:10] 
+── B: Novel candidates (computational, not in wetlab) ───────────
+[2026-06-19 14:11:10] 
+  Novel shared upregulated (not in any wetlab list): 15
+[2026-06-19 14:11:10]     • BIRC3
+[2026-06-19 14:11:10]     • CCL4
+[2026-06-19 14:11:10]     • CD200R1
+[2026-06-19 14:11:10]     • CFAP251
+[2026-06-19 14:11:10]     • CREBRF
+[2026-06-19 14:11:10]     • CXCL1
+[2026-06-19 14:11:10]     • DUSP1
+[2026-06-19 14:11:10]     • INHBE
+[2026-06-19 14:11:10]     • LPXN
+[2026-06-19 14:11:10]     • PLA2G4C
+[2026-06-19 14:11:10]     • RND1
+[2026-06-19 14:11:10]     • SIRT4
+[2026-06-19 14:11:10]     • TSPAN1
+[2026-06-19 14:11:10]     • TSPYL2
+[2026-06-19 14:11:10]     • VNN3P
+[2026-06-19 14:11:10]   Novel DENV up (not in any wetlab list): 276 genes
+[2026-06-19 14:11:10]   Novel ZIKV up (not in any wetlab list): 64 genes
+[2026-06-19 14:11:10] 
+── C: Validation matrix heatmap ────────────────────────────────
+[2026-06-19 14:11:10]   Validation matrix → Figure_Validation_Matrix
+[2026-06-19 14:11:10] 
+── D: Overlap bar chart ────────────────────────────────────────
+[2026-06-19 14:11:11]   Overlap bar chart → barplot_wetlab_overlaps
+[2026-06-19 14:11:11] 
+── E: Venn diagram ─────────────────────────────────────────────
+[2026-06-19 14:11:11]   Venn diagram → Figure_SharedGenes_vs_Wetlab_Venn
+[2026-06-19 14:11:11] 
+── F: Detailed match report ────────────────────────────────────
+[2026-06-19 14:11:11] 
+  Shared gene wetlab status:
+[2026-06-19 14:11:11]   Gene          FC_DENV  FC_ZIKV  Wetlab  
+[2026-06-19 14:11:11]   ------------ -------- --------  ------------------------------
+[2026-06-19 14:11:11]   CCL4            +4.97    +5.57  NOVEL
+[2026-06-19 14:11:11]   BIRC3           +3.28    +3.44  NOVEL
+[2026-06-19 14:11:11]   VNN3P           +2.72    +2.50  NOVEL
+[2026-06-19 14:11:11]   TSPAN1          +2.31    +2.90  NOVEL
+[2026-06-19 14:11:11]   INHBE           +2.15    +1.73  NOVEL
+[2026-06-19 14:11:11]   TSPYL2          +1.99    +1.11  NOVEL
+[2026-06-19 14:11:11]   PLA2G4C         +1.92    +2.08  NOVEL
+[2026-06-19 14:11:11]   CXCL1           +1.59    +1.43  NOVEL
+[2026-06-19 14:11:11]   RND1            +1.58    +1.90  NOVEL
+[2026-06-19 14:11:11]   SIRT4           +1.49    +1.85  NOVEL
+[2026-06-19 14:11:11]   CD200R1         +1.37    +2.10  NOVEL
+[2026-06-19 14:11:11]   LPXN            +1.35    +1.94  NOVEL
+[2026-06-19 14:11:11]   CFAP251         +1.26    +1.40  NOVEL
+[2026-06-19 14:11:11]   CREBRF          +1.22    +1.52  NOVEL
+[2026-06-19 14:11:11]   DUSP1           +1.01    +1.16  NOVEL
+[2026-06-19 14:11:11] 
+── G: Summary ──────────────────────────────────────────────────
+[2026-06-19 14:11:11]   Shared genes confirmed as antiviral   : 0
+[2026-06-19 14:11:11]   Shared genes confirmed as proviral    : 0
+[2026-06-19 14:11:11]   Shared genes in medium-confidence     : 0
+[2026-06-19 14:11:11]   Shared genes NOVEL (not in wetlab)    : 15
+[2026-06-19 14:11:11] 
+  DENV upregulated vs DENV antiviral wetlab:
+[2026-06-19 14:11:11]     Overlap: 3 genes — ['IFI6', 'IFITM1', 'IFITM3']
+[2026-06-19 14:11:11] 
+  DENV upregulated vs DENV proviral wetlab:
+[2026-06-19 14:11:11]     Overlap: 0 genes — []
+[2026-06-19 14:11:11] 
+  ZIKV upregulated vs ZIKV antiviral wetlab:
+[2026-06-19 14:11:11]     Overlap: 0 genes — []
+[2026-06-19 14:11:11] 
+  ZIKV upregulated vs ZIKV proviral wetlab:
+[2026-06-19 14:11:11]     Overlap: 0 genes — []
+[2026-06-19 14:11:11] 
+============================================================
+[2026-06-19 14:11:11] STEP 06 COMPLETE
+[2026-06-19 14:11:11]   Overlap table     : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase5_validation/validation_overlap_all.csv
+[2026-06-19 14:11:11]   Novel candidates  : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase5_validation/novel_candidates_shared.csv
+[2026-06-19 14:11:11]   Shared+wetlab annot: /home/preonath/Desktop/Preonath_Project/Zika_Dengue/03_results/phase5_validation/shared_DEGs_wetlab_annotated.csv
+[2026-06-19 14:11:11]   Figures           : /home/preonath/Desktop/Preonath_Project/Zika_Dengue/04_figures/main
+[2026-06-19 14:11:11] 
+Next: review SESSION_LOG.md for summary + pipeline status
+[2026-06-19 14:11:11] ============================================================

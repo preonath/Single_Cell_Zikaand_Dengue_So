@@ -1,0 +1,40 @@
+sample_id,title,source,organism,platform,condition,disease
+GSM2491424,Other_Febrile_Illness Sample_20034,PBMC,Homo sapiens,GPL16791,Unknown,Other Febrile Illness
+GSM2491425,Other_Febrile_Illness Sample_20053,PBMC,Homo sapiens,GPL16791,Unknown,Other Febrile Illness
+GSM2491426,Other_Febrile_Illness Sample_20058,PBMC,Homo sapiens,GPL16791,Unknown,Other Febrile Illness
+GSM2491427,Other_Febrile_Illness Sample_20059,PBMC,Homo sapiens,GPL16791,Unknown,Other Febrile Illness
+GSM2491428,Other_Febrile_Illness Sample_20068,PBMC,Homo sapiens,GPL16791,Unknown,Other Febrile Illness
+GSM2491429,Other_Febrile_Illness Sample_20071,PBMC,Homo sapiens,GPL16791,Unknown,Other Febrile Illness
+GSM2491430,Other_Febrile_Illness Sample_20089,PBMC,Homo sapiens,GPL16791,Unknown,Other Febrile Illness
+GSM2491431,Other_Febrile_Illness Sample_20135,PBMC,Homo sapiens,GPL16791,Unknown,Other Febrile Illness
+GSM2491432,Dengue_Fever_Group_A Sample_20045,PBMC,Homo sapiens,GPL16791,Unknown,Dengue fever
+GSM2491433,Dengue_Fever_Group_A Sample_20048,PBMC,Homo sapiens,GPL16791,Unknown,Dengue fever
+GSM2491434,Dengue_Fever_Group_A Sample_20077,PBMC,Homo sapiens,GPL16791,Unknown,Dengue fever
+GSM2491435,Dengue_Fever_Group_A Sample_20079,PBMC,Homo sapiens,GPL16791,Unknown,Dengue fever
+GSM2491436,Dengue_Fever_Group_A Sample_20125,PBMC,Homo sapiens,GPL16791,Unknown,Dengue fever
+GSM2491437,Dengue_Fever_Group_A Sample_20133,PBMC,Homo sapiens,GPL16791,Unknown,Dengue fever
+GSM2491438,Dengue_Fever_Group_A Sample_20143,PBMC,Homo sapiens,GPL16791,Unknown,Dengue fever
+GSM2491439,Dengue_Fever_Group_B Sample_119,PBMC,Homo sapiens,GPL16791,Unknown,Dengue hemorrhagic fever
+GSM2491440,Dengue_Fever_Group_B Sample_120,PBMC,Homo sapiens,GPL16791,Unknown,Dengue hemorrhagic fever
+GSM2491441,Dengue_Fever_Group_B Sample_131,PBMC,Homo sapiens,GPL16791,Unknown,Dengue hemorrhagic fever
+GSM2491442,Dengue_Fever_Group_B Sample_150,PBMC,Homo sapiens,GPL16791,Unknown,Dengue hemorrhagic fever
+GSM2491443,Dengue_Fever_Group_B Sample_20157,PBMC,Homo sapiens,GPL16791,Unknown,Dengue hemorrhagic fever
+GSM2491444,Dengue_Fever_Group_B Sample_357,PBMC,Homo sapiens,GPL16791,Unknown,Dengue hemorrhagic fever
+GSM2491445,Dengue_Fever_Group_B Sample_401,PBMC,Homo sapiens,GPL16791,Unknown,Dengue hemorrhagic fever
+GSM2491446,Dengue_Fever_Group_B Sample_462,PBMC,Homo sapiens,GPL16791,Unknown,Dengue hemorrhagic fever
+GSM2491447,Dengue_Fever_Group_B Sample_513,PBMC,Homo sapiens,GPL16791,Unknown,Dengue hemorrhagic fever
+GSM2491448,Dengue_Fever_Group_C Sample_110,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491449,Dengue_Fever_Group_C Sample_113,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491450,Dengue_Fever_Group_C Sample_124,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491451,Dengue_Fever_Group_C Sample_130,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491452,Dengue_Fever_Group_C Sample_135,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491453,Dengue_Fever_Group_C Sample_139,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491454,Dengue_Fever_Group_C Sample_144,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491455,Dengue_Fever_Group_C Sample_147,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491456,Dengue_Fever_Group_C Sample_20156,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491457,Dengue_Fever_Group_C Sample_20258,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491458,Dengue_Fever_Group_C Sample_20261,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491459,Dengue_Fever_Group_C Sample_207,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491460,Dengue_Fever_Group_C Sample_77,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491461,Dengue_Fever_Group_C Sample_83,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome
+GSM2491462,Dengue_Fever_Group_C Sample_92,PBMC,Homo sapiens,GPL16791,Unknown,Dengue shock syndrome

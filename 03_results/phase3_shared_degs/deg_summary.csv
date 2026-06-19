@@ -1,0 +1,14 @@
+Category,Count
+DENV_up,300.0
+DENV_down,227.0
+ZIKV_up,66.0
+ZIKV_down,110.0
+Shared_up,15.0
+Shared_down,0.0
+Shared_all,15.0
+Discordant,32.0
+DENV_only,480.0
+ZIKV_only,129.0
+Fisher_p_up,2.257856221922103e-15
+FoldEnr_up,18.557
+OddsRatio_up,24.916

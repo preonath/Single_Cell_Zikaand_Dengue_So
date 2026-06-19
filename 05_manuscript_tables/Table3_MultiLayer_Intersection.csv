@@ -1,0 +1,16 @@
+Gene,Layer 1 (Shared DEG),Layer 2 (NPC Replicated),Layer 3 (miRNA Target),Layer 4 (Network Hub),Total Layers,Classification
+CREBRF,✓,✓,✓,,3,Top-tier
+TSPYL2,✓,✓,✓,,3,Top-tier
+BIRC3,✓,,,✓,2,Strong
+CXCL1,✓,,,✓,2,Strong
+INHBE,✓,✓,,,2,Strong
+RND1,✓,✓,,,2,Strong
+SIRT4,✓,,✓,,2,Strong
+CCL4,✓,,,,1,Candidate
+CD200R1,✓,,,,1,Candidate
+CFAP251,✓,,,,1,Candidate
+DUSP1,✓,,,,1,Candidate
+LPXN,✓,,,,1,Candidate
+PLA2G4C,✓,,,,1,Candidate
+TSPAN1,✓,,,,1,Candidate
+VNN3P,✓,,,,1,Candidate

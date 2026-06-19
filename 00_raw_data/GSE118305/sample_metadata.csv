@@ -1,0 +1,61 @@
+sample_id,title,source,organism,platform,human_donor,cell_type,viral_infection,viral_strain,time_post_infection_viral_infection,chip_antibody,condition
+GSM3324430,Human1_RNA_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human1,monocyte derived macrophage,mock infected,NA,24h,,Unknown
+GSM3324431,Human1_RNA_FSS_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human1,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,,Infected
+GSM3324432,Human1_RNA_FSS_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human1,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,,Infected
+GSM3324433,Human1_RNA_SD001_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human1,monocyte derived macrophage,ZIKV-bystander,ZIKV-SD001,24h,,Infected
+GSM3324434,Human1_RNA_SD001_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human1,monocyte derived macrophage,ZIKV-infected,ZIKV-SD001,24h,,Infected
+GSM3324435,Human3_RNA_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human3,monocyte derived macrophage,mock infected,NA,24h,,Unknown
+GSM3324436,Human3_RNA_FSS_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human3,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,,Infected
+GSM3324437,Human3_RNA_FSS_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human3,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,,Infected
+GSM3324438,Human3_RNA_SD001_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human3,monocyte derived macrophage,ZIKV-bystander,ZIKV-SD001,24h,,Infected
+GSM3324439,Human3_RNA_SD001_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human3,monocyte derived macrophage,ZIKV-infected,ZIKV-SD001,24h,,Infected
+GSM3324440,Human4_RNA_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human4,monocyte derived macrophage,mock infected,ZIKV-FSS13025,24h,,Unknown
+GSM3324441,Human4_RNA_ZIKVnegative_12h,Human blood monocytes derived,Homo sapiens,GPL11154,Human4,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,12h,,Infected
+GSM3324442,Human4_RNA_ZIKVnegative_18h,Human blood monocytes derived,Homo sapiens,GPL11154,Human4,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,18h,,Infected
+GSM3324443,Human4_RNA_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human4,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,,Infected
+GSM3324444,Human4_RNA_ZIKVpositive_12h,Human blood monocytes derived,Homo sapiens,GPL11154,Human4,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,12h,,Infected
+GSM3324445,Human4_RNA_ZIKVpositive_18h,Human blood monocytes derived,Homo sapiens,GPL11154,Human4,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,18h,,Infected
+GSM3324446,Human4_RNA_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human4,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,,Infected
+GSM3324447,Human5_RNA_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human5,monocyte derived macrophage,mock infected,ZIKV-FSS13025,24h,,Unknown
+GSM3324448,Human5_RNA_ZIKVnegative_12h,Human blood monocytes derived,Homo sapiens,GPL11154,Human5,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,12h,,Infected
+GSM3324449,Human5_RNA_ZIKVnegative_18h,Human blood monocytes derived,Homo sapiens,GPL11154,Human5,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,18h,,Infected
+GSM3324450,Human5_RNA_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human5,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,,Infected
+GSM3324451,Human5_RNA_ZIKVpositive_12h,Human blood monocytes derived,Homo sapiens,GPL11154,Human5,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,12h,,Infected
+GSM3324452,Human5_RNA_ZIKVpositive_18h,Human blood monocytes derived,Homo sapiens,GPL11154,Human5,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,18h,,Infected
+GSM3324453,Human5_RNA_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human5,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,,Infected
+GSM3324454,Human6_RNA_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human6,monocyte derived macrophage,mock infected,ZIKV-FSS13025,24h,,Unknown
+GSM3324455,Human6_RNA_ZIKVnegative_12h,Human blood monocytes derived,Homo sapiens,GPL11154,Human6,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,12h,,Infected
+GSM3324456,Human6_RNA_ZIKVnegative_18h,Human blood monocytes derived,Homo sapiens,GPL11154,Human6,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,18h,,Infected
+GSM3324457,Human6_RNA_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human6,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,,Infected
+GSM3324458,Human6_RNA_ZIKVpositive_12h,Human blood monocytes derived,Homo sapiens,GPL11154,Human6,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,12h,,Infected
+GSM3324459,Human6_RNA_ZIKVpositive_18h,Human blood monocytes derived,Homo sapiens,GPL11154,Human6,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,18h,,Infected
+GSM3324460,Human6_RNA_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human6,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,,Infected
+GSM3324461,Human6_ChIP_Pol2_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human6,monocyte derived macrophage,mock infected,NA,24h,"RPB2 protein of RNApol2, GeneTex #GTX102535",Unknown
+GSM3324462,Human6_ChIP_Pol2_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human6,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,"RPB2 protein of RNApol2, GeneTex #GTX102535",Infected
+GSM3324463,Human6_ChIP_Pol2_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human6,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,"RPB2 protein of RNApol2, GeneTex #GTX102535",Infected
+GSM3324464,Human7_ChIP_Pol2_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human7,monocyte derived macrophage,mock infected,NA,24h,"RPB2 protein of RNApol2, GeneTex #GTX102535",Unknown
+GSM3324465,Human7_ChIP_Pol2_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human7,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,"RPB2 protein of RNApol2, GeneTex #GTX102535",Infected
+GSM3324466,Human7_ChIP_Pol2_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL11154,Human7,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,"RPB2 protein of RNApol2, GeneTex #GTX102535",Infected
+GSM3324467,Human7_ChIP_H3K27Ac_input,Human blood monocytes derived,Homo sapiens,GPL18573,Human7,monocyte derived macrophage,,,24h,input,Unknown
+GSM3324468,Human7_ChIP_H3K27Ac_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human7,monocyte derived macrophage,mock infected,NA,24h,"Histone H3 lysine 27 acetyl, Active Motif #39133, (H3K27ac)",Unknown
+GSM3324469,Human7_ChIP_H3K27Ac_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human7,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,"Histone H3 lysine 27 acetyl, Active Motif #39133, (H3K27ac)",Infected
+GSM3324470,Human7_ChIP_H3K27Ac_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human7,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,"Histone H3 lysine 27 acetyl, Active Motif #39133, (H3K27ac)",Infected
+GSM3324471,Human8_ChIP_H3K27Ac_input,Human blood monocytes derived,Homo sapiens,GPL18573,Human8,monocyte derived macrophage,,,24h,input,Unknown
+GSM3324472,Human8_ChIP_H3K27Ac_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human8,monocyte derived macrophage,mock infected,NA,24h,"Histone H3 lysine 27 acetyl, Active Motif #39133, (H3K27ac)",Unknown
+GSM3324473,Human8_ChIP_H3K27Ac_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human8,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,"Histone H3 lysine 27 acetyl, Active Motif #39133, (H3K27ac)",Infected
+GSM3324474,Human8_ChIP_H3K27Ac_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human8,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,"Histone H3 lysine 27 acetyl, Active Motif #39133, (H3K27ac)",Infected
+GSM3324475,Human9_ChIP_H3K27Ac_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human9,monocyte derived macrophage,mock infected,NA,24h,"Histone H3 lysine 27 acetyl, Active Motif #39133, (H3K27ac)",Unknown
+GSM3324476,Human9_ChIP_H3K27Ac_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human9,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,"Histone H3 lysine 27 acetyl, Active Motif #39133, (H3K27ac)",Infected
+GSM3324477,Human9_ChIP_H3K27Ac_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human9,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,"Histone H3 lysine 27 acetyl, Active Motif #39133, (H3K27ac)",Infected
+GSM3324478,Human10_ChIP_CTCF_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,mock infected,NA,24h,"CTCF, Active Motif #61311",Unknown
+GSM3324479,Human10_ChIP_CTCF_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,"CTCF, Active Motif #61311",Infected
+GSM3324480,Human10_ChIP_CTCF_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,"CTCF, Active Motif #61311",Infected
+GSM3324481,Human10_ChIP_CTCF_Mock_input,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,mock infected,NA,24h,input,Unknown
+GSM3324482,Human10_ChIP_CTCF_ZIKVnegative_input,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,input,Infected
+GSM3324483,Human10_ChIP_CTCF_ZIKVpositive_input,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,input,Infected
+GSM3324484,Human10_ChIP_Pol2_Mock_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,mock infected,NA,24h,"RPB2 protein of RNApol2, GeneTex #GTX102535",Unknown
+GSM3324485,Human10_ChIP_Pol2_ZIKVnegative_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,"RPB2 protein of RNApol2, GeneTex #GTX102535",Infected
+GSM3324486,Human10_ChIP_Pol2_ZIKVpositive_24h,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,"RPB2 protein of RNApol2, GeneTex #GTX102535",Infected
+GSM3324487,Human10_ChIP_Pol2_Mock_input,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,mock infected,NA,24h,input,Unknown
+GSM3324488,Human10_ChIP_Pol2_ZIKVnegative_input,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,ZIKV-bystander,ZIKV-FSS13025,24h,input,Infected
+GSM3324489,Human10_ChIP_Pol2_ZIKVpositive_input,Human blood monocytes derived,Homo sapiens,GPL18573,Human10,monocyte derived macrophage,ZIKV-infected,ZIKV-FSS13025,24h,input,Infected

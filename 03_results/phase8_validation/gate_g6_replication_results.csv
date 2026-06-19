@@ -1,0 +1,3 @@
+dataset,val_up_degs,discovery_shared,overlap,expected,fold_enrichment,replication_pct,fisher_p,replicated_genes
+GSE94892 (DENV PBMCs),85,15,0,0.079,0.0,0.0,1.0,
+GSE78711 (ZIKV NPCs),403,15,4,0.268,14.9,26.7,0.00011778854984176032,CREBRF; INHBE; RND1; TSPYL2

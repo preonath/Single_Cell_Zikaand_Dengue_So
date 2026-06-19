@@ -20,4 +20,17 @@ rad.json
 *.bclicense
 *.flf
 #Test results file
-TestResults.xml
+TestResults.xml00_raw_data/GSE110496/GSE110496_RAW.tar
+01_processed_data/anndata_objects/adata_processed.h5ad
+01_processed_data/anndata_objects/adata_raw.h5ad
+01_processed_data/anndata_objects/adata_filtered.h5ad
+.git/objects/db/b6c06ad18bcbb97167d160293022d63f0ae679
+00_raw_data/GSE110496/GSE110496_RAW.tar
+01_processed_data/anndata_objects/adata_processed.h5ad
+01_processed_data/anndata_objects/adata_raw.h5ad
+01_processed_data/anndata_objects/adata_filtered.h5ad
+.git/objects/db/b6c06ad18bcbb97167d160293022d63f0ae679
+00_raw_data/GSE110496/GSE110496_RAW.tar
+01_processed_data/anndata_objects/adata_processed.h5ad
+01_processed_data/anndata_objects/adata_raw.h5ad
+01_processed_data/anndata_objects/adata_filtered.h5ad

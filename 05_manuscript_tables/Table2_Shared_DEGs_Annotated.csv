@@ -1,0 +1,16 @@
+Gene Symbol,Gene Name,log2FC (DENV),padj (DENV),log2FC (ZIKV),padj (ZIKV),Host factor class,ISG,55-set miRNA target,miRNA targeting count,NPC replicated,Macrophage replicated,DENV PBMC replicated,Convergent pathways,Priority candidate
+CCL4,C-C motif chemokine ligand 4,4.966,1.44e-03,5.569,5.69e-04,Novel,No,No,0,No,No,No,NF-kappa B signaling path; Cytokine-cytokine recepto; Viral protein interaction; Chemokine signaling pathw,
+BIRC3,baculoviral IAP repeat containing 3,3.275,6.86e-05,3.441,1.97e-02,Proviral,No,No,0,No,No,No,NF-kappa B signaling path; TNF signaling pathway; Necroptosis; NOD-like receptor signali,
+VNN3P,"vanin 3, pseudogene",2.719,9.80e-05,2.498,9.89e-04,Novel,No,No,0,No,No,No,—,
+TSPAN1,tetraspanin 1,2.307,1.81e-02,2.895,2.43e-02,Novel,No,No,0,No,No,No,—,
+INHBE,inhibin subunit beta E,2.146,8.31e-04,1.726,2.74e-02,Novel,No,No,0,Yes (p=1.18e-4),No,No,Cytokine-cytokine recepto,★★
+TSPYL2,TSPY like 2,1.989,1.51e-07,1.114,2.61e-02,Novel,No,Yes,2,Yes (p=1.18e-4),No,No,—,★★★
+PLA2G4C,phospholipase A2 group IVC,1.916,2.46e-03,2.081,8.55e-04,Novel,No,Yes,1,No,No,No,Serotonergic synapse; Necroptosis; alpha-Linolenic acid meta; MAPK signaling pathway; Linoleic acid metabolism,
+CXCL1,C-X-C motif chemokine ligand 1,1.591,6.68e-05,1.428,1.01e-04,Novel,No,No,0,No,No,No,NF-kappa B signaling path; Cytokine-cytokine recepto; Viral protein interaction; TNF signaling pathway; NOD-like receptor signali; Chemokine signaling pathw; Kaposi sarcoma-associated,
+RND1,Rho family GTPase 1,1.585,3.25e-04,1.903,7.79e-03,Novel,No,No,0,Yes (p=1.18e-4),No,No,—,★★
+SIRT4,sirtuin 4,1.491,1.43e-02,1.852,1.03e-02,Novel,No,Yes,4,No,No,No,—,★
+CD200R1,CD200 receptor 1,1.375,3.15e-02,2.097,2.49e-03,Novel,No,No,0,No,No,No,Kaposi sarcoma-associated,
+LPXN,leupaxin,1.35,4.73e-02,1.935,4.31e-02,Novel,No,No,0,No,No,No,—,
+CFAP251,cilia and flagella associated protein 251,1.264,3.75e-02,1.405,2.05e-02,Novel,No,No,0,No,No,No,—,
+CREBRF,CREB3 regulatory factor,1.223,1.73e-02,1.522,4.36e-02,Novel,No,Yes,8,Yes (p=1.18e-4),No,No,—,★★★
+DUSP1,dual specificity phosphatase 1,1.012,1.41e-02,1.163,2.80e-04,Novel,No,Yes,1,No,No,No,Serotonergic synapse; MAPK signaling pathway,

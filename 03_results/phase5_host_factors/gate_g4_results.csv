@@ -1,0 +1,7 @@
+test,n_shared,overlap,expected,fold_enrichment,odds_ratio,fisher_p,significant,genes_in_overlap
+shared_up_vs_proviral_all,15,0,0.0,0.0,0.0,1.0,False,
+shared_up_vs_antiviral_all,15,0,0.0,0.0,0.0,1.0,False,
+shared_up_vs_cross_proviral,15,0,0.0,0.0,0.0,1.0,False,
+shared_up_vs_cross_antiviral,15,0,0.0,0.0,0.0,1.0,False,
+shared_all_vs_proviral_all,15,0,0.0,0.0,0.0,1.0,False,
+shared_all_vs_antiviral_all,15,0,0.0,0.0,0.0,1.0,False,

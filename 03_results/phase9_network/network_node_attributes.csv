@@ -1,0 +1,16 @@
+gene,degree,betweenness,closeness,clustering,hub_score,is_proviral,is_antiviral,is_mirna_hub,is_validated,log2FC_DENV
+CXCL1,2,0.011,0.1429,0,0.022,False,False,False,False,1.5914794898591664
+SIRT4,0,0.0,0.0,0,0.0,False,False,True,False,1.491390961319632
+BIRC3,1,0.0,0.0952,0,0.0,False,False,False,False,3.275399453806839
+PLA2G4C,0,0.0,0.0,0,0.0,False,False,False,False,1.9160924832345176
+LPXN,0,0.0,0.0,0,0.0,False,False,False,False,1.350071486121989
+TSPAN1,0,0.0,0.0,0,0.0,False,False,False,False,2.306846449450827
+VNN3P,0,0.0,0.0,0,0.0,False,False,False,False,2.7190920498867324
+DUSP1,0,0.0,0.0,0,0.0,False,False,False,False,1.0119360180306365
+INHBE,0,0.0,0.0,0,0.0,False,False,False,True,2.145970323091716
+CFAP251,0,0.0,0.0,0,0.0,False,False,False,False,1.2639828500337662
+CD200R1,0,0.0,0.0,0,0.0,False,False,False,False,1.374869921141477
+CREBRF,0,0.0,0.0,0,0.0,False,False,True,True,1.2229046932742034
+RND1,0,0.0,0.0,0,0.0,False,False,False,True,1.5849651830687352
+TSPYL2,0,0.0,0.0,0,0.0,False,False,True,True,1.9894732631616008
+CCL4,1,0.0,0.0952,0,0.0,False,False,False,False,4.966295700783061

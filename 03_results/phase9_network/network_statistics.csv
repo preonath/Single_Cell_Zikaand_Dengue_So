@@ -1,0 +1,2 @@
+n_nodes,n_edges,density,avg_degree,avg_clustering,n_connected_components,top_hub_gene
+15,2,0.019,0.267,0.0,13,CXCL1
