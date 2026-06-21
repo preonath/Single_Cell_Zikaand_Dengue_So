@@ -1,0 +1,12 @@
+gene,sheet_virus,sheet_role,pathway,evidence
+IFI6,DENV,antiviral,Innate Immunity / ER Replication Organelle Restriction,Richardson 2018 — DENV most potently restricted
+RETREG1,DENV,antiviral,Autophagy / ER-phagy,RNAi depletion enhances DENV — Autophagy 2017 (PMID 28102736)
+IFITM1,DENV,antiviral,Innate Immunity / ISG Effector (membrane fusion block),OE restricts DENV entry
+IFITM3,DENV,antiviral,Innate Immunity / ISG Effector (membrane fusion block),OE restricts DENV entry
+DGAT2,DENV,proviral,Lipid Metabolism (Lipid Droplet Biogenesis),shRNA KD + NS interaction — inferred from ZIKV
+ISG15,ZIKV,antiviral,Innate Immunity / ISG Effector (protein ISGylation),rISG15 supplement + silencing — Singh 2019 (PMID 30905842)
+MX1,ZIKV,antiviral,Innate Immunity / ISG Effector (GTPase-mediated restriction),siRNA KD in trophoblasts — Chen 2017
+RETREG1,ZIKV,antiviral,Autophagy / ER-phagy (Reticulophagy),RNAi enhances ZIKV — Autophagy 2017 (PMID 28102736)
+ATL2,ZIKV,proviral,ER Remodeling / Replication Organelle Formation,siRNA + CRISPR dKO — JVI 2019
+RRBP1,ZIKV,proviral,RNA Replication / ER-bound RNA Processing,shRNA KD — Zhang et al. PNAS 2022 (PMID 35165171)
+ISG15,ZIKV,proviral,Innate Immune Suppression (context: hNPC),CRISPR KO — Li 2019

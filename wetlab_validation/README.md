@@ -53,6 +53,35 @@ ZIKV overlap is much weaker (1 vs DENV's 5): it produced fewer/weaker DEGs and i
 ISGs never crossed significance (76 wetlab ZIKV genes were detected but did not pass the cutoff).
 Table: `common_ZIKV_DEG_vs_wetlab.csv`.
 
+## Pathway analysis of the volcano overlap genes — validation panel (added 2026-06-21)
+
+Over-Representation Analysis (ORA, Enrichr/gseapy) of the genes highlighted on the DEG∩wetlab
+volcano plots. **This is a confirmatory check, not a discovery** — these genes were already curated
+as antiviral host factors, so recovering interferon/ISG pathways shows the overlap is biologically
+coherent. (For discovery-level pathway analysis of the *full* DEG sets and the 15 shared genes, see
+`03_results/phase4_pathways/` from step05.)
+
+![DENV overlap pathway enrichment](pathway_DENV_overlap_enrichment.png)
+
+**DENV overlap genes (9): MX1, IFI6, RETREG1, IFITM1, ISG15, IFITM3, RRBP1, DGAT2, ATL2**
+
+| Database | Top pathway | FDR | Genes |
+|---|---|---|---|
+| GO BP | Type I interferon signaling | 2.8×10⁻⁹ | IFITM3, IFITM1, MX1, IFI6, ISG15 |
+| Reactome | Interferon α/β Signaling | 2.1×10⁻⁹ | IFITM3, IFITM1, MX1, IFI6, ISG15 |
+| Hallmark | Interferon Alpha Response | 5.1×10⁻⁷ | IFITM3, IFITM1, MX1, ISG15 |
+| KEGG | Coronavirus disease / RIG-I signaling | 0.05 | MX1, ISG15 |
+
+The 6 ISGs form a clean Type-I-interferon antiviral module; the remaining genes split by function —
+RRBP1+ATL2 = ER replication-organelle, DGAT2 = lipid-droplet/glycerolipid (the proviral arm).
+
+**ZIKV overlap = 1 gene (RRBP1)** → ORA is not possible on a single gene; reported as curated
+annotation only (proviral, "RNA Replication / ER-bound RNA Processing").
+
+Outputs: `03_results/phase5_validation/pathway_enrichr_DENV_overlap.csv` (194 terms) +
+`_significant.csv` (116 FDR<0.05); curated annotation `pathway_curated_{DENV,ZIKV}_overlap.csv`.
+Caveats: lists are small (9 / 1 genes) so ORA is limited; it is confirmatory by construction.
+
 ## Per-virus DEG ∩ FULL wetlab union (128 genes) volcano plots (added 2026-06-21)
 
 Same volcanoes, but each virus's DEGs are intersected against the **combined 128-gene wetlab

@@ -1,0 +1,14 @@
+leiden,n,median_load,median_log_viral,median_dpt,pct_infected,dominant_condition,cell_state,cluster_label
+0,176,3.5,0.6505149978319906,0.13440694,0.5454545454545454,DENV,Early infection,DENV: Early infection
+1,198,38.0,1.5904927903933652,0.13029924,0.6363636363636364,DENV,Early infection,DENV: Early infection
+2,218,187.5,2.273209633417596,0.13451096,0.6605504587155964,DENV,Mid infection,DENV: Mid infection
+3,62,917.0,2.9628218086832323,0.12163297,1.0,DENV,Early infection,DENV: Early infection
+4,177,0.0,0.0,0.23591037,0.1977401129943503,Control,Uninfected / bystander,Control: Uninfected / bystander
+5,175,0.0,0.0,0.16673964,0.11428571428571428,Control,Uninfected / bystander,Control: Uninfected / bystander
+6,154,0.0,0.0,0.2581615,0.2857142857142857,ZIKV,Uninfected / bystander,ZIKV: Uninfected / bystander
+7,278,58.5,1.7741332725853727,0.14797622,0.6870503597122302,DENV,Mid infection,DENV: Mid infection
+8,16,621.0,2.7915511896894243,0.5789933,0.8125,DENV,Late / high-load,DENV: Late / high-load
+9,138,16259.0,4.211114883099979,0.45708117,0.9855072463768116,DENV,Late / high-load,DENV: Late / high-load
+10,129,2330.0,3.3675422735205767,0.21969226,0.9922480620155039,DENV,Mid infection,DENV: Mid infection
+11,223,0.0,0.0,0.22921664,0.2645739910313901,Control,Uninfected / bystander,Control: Uninfected / bystander
+12,131,3972.0,3.5991185650553628,0.69672585,0.9847328244274809,ZIKV,Late / high-load,ZIKV: Late / high-load
