@@ -1,0 +1,3 @@
+test,overlap,wetlab_n,denv_up_n,background,odds_ratio,p_value
+wetlab ANTIVIRAL ∩ DENV-up-DEG,7,49,635,22385,5.76,0.0004363581923563715
+wetlab PROVIRAL ∩ DENV-up-DEG,5,97,635,22385,1.87,0.14168018643647132

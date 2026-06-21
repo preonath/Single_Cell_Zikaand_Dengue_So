@@ -66,6 +66,46 @@ fair question. Result table: `03_results/phase5_validation/per_virus_DEG_vs_wetl
    *change*. A host factor can be essential yet flat in expression → invisible to DEGs. Antiviral
    ISGs are the exception because they are induced by definition.
 
+## Category-aware per-gene validation (added 2026-06-21)
+
+The earlier Fisher test lumped all wetlab genes together, which buries the antiviral
+signal under proviral noise. A **direction-aware, category-stratified** re-analysis
+separates the two because they measure different things: DEGs detect *transcriptional
+induction* (antiviral/ISGs are induced → detectable) whereas proviral host factors are
+typically constitutively expressed *functional* requirements (CRISPR/RNAi hits) that do
+not change expression and so are invisible to a DEG test.
+
+**Outputs**
+- `03_results/phase5_validation/wetlab_vs_computational_pergene.csv` — per-gene DENV/ZIKV
+  log2FC + padj + direction-aware verdict for every curated wetlab gene
+- `03_results/phase5_validation/wetlab_vs_computational_summary.csv` — category counts
+- `03_results/phase5_validation/wetlab_vs_computational_fisher.csv` — per-category enrichment
+- `Figure_Wetlab_Computational_Validation.png` / `.pdf` — 3-panel figure
+  (A: detection vs induction; B: per-category Fisher; C: per-gene log2FC heatmap of antiviral factors)
+
+![Wetlab vs Computational category-aware validation](Figure_Wetlab_Computational_Validation.png)
+
+*Panel A — antiviral genes are detected and induced far more than expected; proviral genes are
+detected but rarely induced. Panel B — antiviral overlap with DENV up-DEGs is significantly
+enriched (OR=5.76, p=4.4×10⁻⁴), proviral is not (ns). Panel C — per-gene log2FC of curated
+antiviral host factors in DENV and ZIKV (\* = padj<0.05 & up).*
+
+**Result**
+
+| Category | wetlab genes | detected in scRNA-seq | sig UP | Fisher vs background |
+|---|---|---|---|---|
+| **Antiviral / ISG** | 75 | 44 | 12 (27%) | **OR = 5.76, p = 4.4×10⁻⁴** ✅ |
+| Proviral | 120 | 96 | 6 (6%) | OR = 1.87, p = 0.14 ✗ ns |
+
+Computationally validated antiviral genes (concordant, UP): **IFI6, IFITM1, IFITM3,
+ISG15, MX1, TRIM56, RETREG1**.
+
+**Interpretation:** the computational pipeline significantly recovers the curated *antiviral*
+host factors (the method works), while proviral overlap is non-significant **by category
+mismatch, not by error** — transcriptomics cannot measure functional dependency. This
+reframes the original G4 "0 overlap": that zero was an artifact of mixing categories, and of
+the strict both-virus intersection that drops ISGs which pass in DENV but not ZIKV.
+
 ## Caveats / things to check before publishing
 - The classic ISGs (IFI6, IFITM1/3, MX1, ISG15) are antiviral in *each* virus
   individually but did **not** survive the strict shared-up intersection — worth

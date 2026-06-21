@@ -1,0 +1,196 @@
+gene,category,virus,confidence,source,detected,DENV_log2FC,DENV_padj,ZIKV_log2FC,ZIKV_padj,DENV_sig_up,ZIKV_sig_up,validation
+BST2,antiviral,DENV,high,DENV_Antiviral,True,5.001,,,,False,False,"detected, not sig"
+CGAS,antiviral,DENV,high,DENV_Antiviral,True,-1.773,,-1.401,0.754805604805358,False,False,"detected, not sig"
+DDX58,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+FAM134B,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+IFI6,antiviral,DENV,high,DENV_Antiviral,True,2.119,9.185239349980788e-07,0.089,0.9704042108920792,True,False,CONCORDANT (UP)
+IFIH1,antiviral,DENV,high,DENV_Antiviral,True,3.375,,1.917,0.4552862416435504,False,False,"detected, not sig"
+IFITM1,antiviral,DENV,high,DENV_Antiviral,True,2.066,0.0374257200604656,-6.345,0.0786073470933772,True,False,CONCORDANT (UP)
+IFITM3,antiviral,DENV,high,DENV_Antiviral,True,1.26,8.938496977058138e-07,-0.177,0.824315775907731,True,False,CONCORDANT (UP)
+IRF1,antiviral,DENV,high,DENV_Antiviral,True,0.406,0.37777721124955,1.013,0.5559523989910472,False,False,"detected, not sig"
+IRF3,antiviral,DENV,high,DENV_Antiviral,True,0.086,0.8458162360513383,-0.036,0.9651636973533674,False,False,"detected, not sig"
+MAVS,antiviral,DENV,high,DENV_Antiviral,True,0.074,0.8816864096815916,-0.195,0.7552724791295594,False,False,"detected, not sig"
+MDA5,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+OAS2,antiviral,DENV,high,DENV_Antiviral,True,1.023,,,,False,False,"detected, not sig"
+OAS3,antiviral,DENV,high,DENV_Antiviral,True,0.729,0.1654748194568474,-0.474,0.617952569625305,False,False,"detected, not sig"
+PAF1 / LEO1 / CDC73,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+RETREG1,antiviral,DENV,high,DENV_Antiviral,True,2.078,1.7952134332888258e-05,-1.191,0.3442887476119654,True,False,CONCORDANT (UP)
+RIG-I,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+RSAD2,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+RYDEN,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+SHFL,antiviral,DENV,high,DENV_Antiviral,True,0.028,0.9729834690416472,-0.262,0.743825391040565,False,False,"detected, not sig"
+STAT2,antiviral,DENV,high,DENV_Antiviral,True,0.726,0.0579447616471335,-0.221,0.7822880395811128,False,False,"detected, not sig"
+STING,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+TBK1,antiviral,DENV,high,DENV_Antiviral,True,-0.728,0.0336903535692104,0.345,0.4654164947967278,False,False,"detected, not sig"
+TETHERIN,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+TMEM173,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+TRIM56,antiviral,DENV,high,DENV_Antiviral,True,0.724,0.0180882037319202,-0.059,0.9494676507753363,True,False,CONCORDANT (UP)
+VIPERIN,antiviral,DENV,high,DENV_Antiviral,False,,,,,False,False,not detected
+APOBEC3G,antiviral,DENV ZIKV,medium,Medium_Confidence,False,,,,,False,False,not detected
+CNOT1,antiviral,DENV ZIKV,medium,Medium_Confidence,True,-0.014,0.9784852957275822,0.128,0.8357584536952437,False,False,"detected, not sig"
+SQSTM1/P62,antiviral,DENV ZIKV,medium,Medium_Confidence,False,,,,,False,False,not detected
+APOBEC3A,antiviral,ZIKV,medium,Medium_Confidence,False,,,,,False,False,not detected
+BST2,antiviral,ZIKV,high,Zika_Antiviral,True,5.001,,,,False,False,"detected, not sig"
+C19ORF66,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+CGAS,antiviral,ZIKV,high,Zika_Antiviral,True,-1.773,,-1.401,0.754805604805358,False,False,"detected, not sig"
+DDX58,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+FAM134B,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+HELZ2,antiviral,ZIKV,high,Zika_Antiviral,True,2.736,,-2.971,,False,False,"detected, not sig"
+IFI35,antiviral,ZIKV,medium,Medium_Confidence,True,0.562,0.2609524427262007,-0.142,0.9172342240178902,False,False,"detected, not sig"
+IFI44,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+IFI6,antiviral,ZIKV,high,Zika_Antiviral,True,2.119,9.185239349980788e-07,0.089,0.9704042108920792,True,False,CONCORDANT (UP)
+IFIH1,antiviral,ZIKV,high,Zika_Antiviral,True,3.375,,1.917,0.4552862416435504,False,False,"detected, not sig"
+IFIT2,antiviral,ZIKV,medium,Medium_Confidence,True,1.3,,2.393,0.4392805690692694,False,False,"detected, not sig"
+IFITM1,antiviral,ZIKV,high,Zika_Antiviral,True,2.066,0.0374257200604656,-6.345,0.0786073470933772,True,False,CONCORDANT (UP)
+IFITM3,antiviral,ZIKV,high,Zika_Antiviral,True,1.26,8.938496977058138e-07,-0.177,0.824315775907731,True,False,CONCORDANT (UP)
+IFNL2,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+IL28A,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+IRF1,antiviral,ZIKV,high,Zika_Antiviral,True,0.406,0.37777721124955,1.013,0.5559523989910472,False,False,"detected, not sig"
+IRF3,antiviral,ZIKV,high,Zika_Antiviral,True,0.086,0.8458162360513383,-0.036,0.9651636973533674,False,False,"detected, not sig"
+ISG15,antiviral,ZIKV,high,Zika_Antiviral,True,1.411,9.53321506679398e-10,-0.056,0.9537707742606394,True,False,CONCORDANT (UP)
+ISG20,antiviral,ZIKV,high,Zika_Antiviral,True,1.623,0.1487416014517993,0.106,0.9719921885004056,False,False,"detected, not sig"
+LC3C,antiviral,ZIKV,medium,Medium_Confidence,False,,,,,False,False,not detected
+MAVS,antiviral,ZIKV,high,Zika_Antiviral,True,0.074,0.8816864096815916,-0.195,0.7552724791295594,False,False,"detected, not sig"
+MDA5,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+MX1,antiviral,ZIKV,high,Zika_Antiviral,True,4.825,0.0017831686910927,-0.013,0.9988100643804868,True,False,CONCORDANT (UP)
+OAS2,antiviral,ZIKV,high,Zika_Antiviral,True,1.023,,,,False,False,"detected, not sig"
+OAS3,antiviral,ZIKV,high,Zika_Antiviral,True,0.729,0.1654748194568474,-0.474,0.617952569625305,False,False,"detected, not sig"
+P53,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+PAF1 / LEO1 / CDC73,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+PUM1,antiviral,ZIKV,medium,Medium_Confidence,True,-0.218,0.528825662570875,-0.009,0.9903552293345184,False,False,"detected, not sig"
+RETREG1,antiviral,ZIKV,high,Zika_Antiviral,True,2.078,1.7952134332888258e-05,-1.191,0.3442887476119654,True,False,CONCORDANT (UP)
+RIG-I,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+RSAD2,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+SHFL,antiviral,ZIKV,high,Zika_Antiviral,True,0.028,0.9729834690416472,-0.262,0.743825391040565,False,False,"detected, not sig"
+STAT2,antiviral,ZIKV,high,Zika_Antiviral,True,0.726,0.0579447616471335,-0.221,0.7822880395811128,False,False,"detected, not sig"
+STING,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+TBK1,antiviral,ZIKV,high,Zika_Antiviral,True,-0.728,0.0336903535692104,0.345,0.4654164947967278,False,False,"detected, not sig"
+TETHERIN,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+TMEM173,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+TRIM25,antiviral,ZIKV,medium,Medium_Confidence,True,0.51,0.3268649697540586,-0.396,0.7610704801950752,False,False,"detected, not sig"
+TRIM56,antiviral,ZIKV,high,Zika_Antiviral,True,0.724,0.0180882037319202,-0.059,0.9494676507753363,True,False,CONCORDANT (UP)
+VIPERIN,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+ZCCHC6,antiviral,ZIKV,high,Zika_Antiviral,False,,,,,False,False,not detected
+PUM2,antiviral,ZIKV (likely DENV),medium,Medium_Confidence,True,-0.36,0.4666263717570363,0.161,0.8673281744694198,False,False,"detected, not sig"
+MOV10,antiviral,ZIKV DENV,medium,Medium_Confidence,True,-0.095,0.8149492790193616,-0.107,0.877010674507368,False,False,"detected, not sig"
+UPF1,antiviral,ZIKV DENV,medium,Medium_Confidence,True,0.084,0.858642585939227,-0.106,0.8881079944186916,False,False,"detected, not sig"
+ARF4 / ARF5,proviral,DENV,high,DENV_proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+ATG5,proviral,DENV,high,DENV_proviral,True,-0.342,0.2314245058712746,0.264,0.556625107191267,False,False,N/A — functional (DEG cannot validate)
+ATL2 / ATL3,proviral,DENV,high,DENV_proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+ATP6V0B,proviral,DENV,high,DENV_proviral,True,0.471,0.0520259909287063,-0.117,0.8228899052801686,False,False,N/A — functional (DEG cannot validate)
+ATP6V1C1,proviral,DENV,high,DENV_proviral,True,-0.173,0.6975746626445438,0.565,0.111556540274754,False,False,N/A — functional (DEG cannot validate)
+ATP6V1F,proviral,DENV,high,DENV_proviral,True,0.482,0.0374257200604656,-0.305,0.4000407468126091,True,False,N/A — functional (DEG cannot validate)
+AXL,proviral,DENV,medium,Medium_Confidence,True,1.559,,-0.624,,False,False,N/A — functional (DEG cannot validate)
+BECN1,proviral,DENV,high,DENV_proviral,True,0.362,0.1728923398878444,0.156,0.7562267556864479,False,False,N/A — functional (DEG cannot validate)
+CD209,proviral,DENV,high,DENV_proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+DC-SIGN,proviral,DENV,high,DENV_proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+DDOST / RPN1 / RPN2,proviral,DENV,high,DENV_proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+DGAT2,proviral,DENV,high,DENV_proviral,True,-1.022,0.0035069015815425,-0.544,0.270809131066856,False,False,N/A — functional (DEG cannot validate)
+EGFR,proviral,DENV,medium,Medium_Confidence,True,-0.102,0.8197498634892944,0.082,0.9047099811949152,False,False,N/A — functional (DEG cannot validate)
+EMC1–EMC3 / EMC5–EMC7,proviral,DENV,high,DENV_proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+EMC4,proviral,DENV,high,DENV_proviral,True,0.138,0.6598240631404859,-0.101,0.8673281744694198,False,False,N/A — functional (DEG cannot validate)
+EXT1,proviral,DENV,high,DENV_proviral,True,-0.219,0.638442411332843,0.358,0.4179221471035763,False,False,N/A — functional (DEG cannot validate)
+FASN,proviral,DENV,high,DENV_proviral,True,0.137,0.7487602695402459,-0.742,0.056265645547916,False,False,N/A — functional (DEG cannot validate)
+GRP78,proviral,DENV,medium,Medium_Confidence,False,,,,,False,False,N/A — functional (DEG cannot validate)
+HAVCR1,proviral,DENV,high,DENV_proviral,True,0.07,0.9134883581592246,-0.28,0.617952569625305,False,False,N/A — functional (DEG cannot validate)
+HSC70,proviral,DENV,medium,Medium_Confidence,False,,,,,False,False,N/A — functional (DEG cannot validate)
+HSP70,proviral,DENV,medium,Medium_Confidence,False,,,,,False,False,N/A — functional (DEG cannot validate)
+HSPA1A,proviral,DENV,medium,Medium_Confidence,True,0.885,0.4972809290381998,-0.344,0.6196720009203043,False,False,N/A — functional (DEG cannot validate)
+HSPA5,proviral,DENV,medium,Medium_Confidence,True,0.939,0.0086022308947924,0.111,0.8412543297130699,True,False,N/A — functional (DEG cannot validate)
+HSPA8,proviral,DENV,medium,Medium_Confidence,True,-0.683,0.0333053164337749,-0.572,0.2863607253287911,False,False,N/A — functional (DEG cannot validate)
+NCL,proviral,DENV,medium,Medium_Confidence,False,,,,,False,False,N/A — functional (DEG cannot validate)
+NDST1,proviral,DENV,high,DENV_proviral,True,-0.242,0.6451368861718679,-0.017,0.9890898751904876,False,False,N/A — functional (DEG cannot validate)
+NOLC1,proviral,DENV,medium,Medium_Confidence,True,-0.239,0.4715676152699705,-0.297,0.5378108070569574,False,False,N/A — functional (DEG cannot validate)
+NPM1,proviral,DENV,medium,Medium_Confidence,True,-0.249,0.000755703846318,-0.101,0.8740018351403124,False,False,N/A — functional (DEG cannot validate)
+NUCLEOLIN,proviral,DENV,medium,Medium_Confidence,True,0.174,0.6064521365214053,-0.375,0.28282549958823,False,False,N/A — functional (DEG cannot validate)
+NUCLEOPHOSMIN,proviral,DENV,medium,Medium_Confidence,False,,,,,False,False,N/A — functional (DEG cannot validate)
+RAB5C,proviral,DENV,high,DENV_proviral,True,0.041,0.9430047123928788,-0.58,0.1082626222230798,False,False,N/A — functional (DEG cannot validate)
+RABGEF1,proviral,DENV,high,DENV_proviral,True,0.385,0.3092477378357468,0.01,0.9907176769944278,False,False,N/A — functional (DEG cannot validate)
+RACK1,proviral,DENV,high,DENV_proviral,True,0.251,0.3521667609204653,-0.214,0.5805985617833181,False,False,N/A — functional (DEG cannot validate)
+SEC61,proviral,DENV,high,DENV_proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+SPCS1,proviral,DENV,high,DENV_proviral,True,0.14,0.7042976261260306,-0.024,0.9745391981476264,False,False,N/A — functional (DEG cannot validate)
+SPTLC1,proviral,DENV,high,DENV_proviral,True,-0.505,0.080988275220913,0.522,0.1314771479283574,False,False,N/A — functional (DEG cannot validate)
+STT3A,proviral,DENV,high,DENV_proviral,True,-0.029,0.9515347964682594,0.243,0.5380846024897377,False,False,N/A — functional (DEG cannot validate)
+STT3B,proviral,DENV,high,DENV_proviral,True,-0.358,0.2299181804875902,0.213,0.6347067972540853,False,False,N/A — functional (DEG cannot validate)
+TIM-1,proviral,DENV,high,DENV_proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+TMEM41B,proviral,DENV,high,DENV_proviral,True,0.041,0.9444271755250204,0.355,0.362686041481581,False,False,N/A — functional (DEG cannot validate)
+VMP1,proviral,DENV,high,DENV_proviral,True,0.084,0.8128211655364983,0.063,0.9266158356066186,False,False,N/A — functional (DEG cannot validate)
+DDX6,proviral,DENV ZIKV,medium,Medium_Confidence,True,0.304,0.501637129462587,-0.233,0.7471879723877808,False,False,N/A — functional (DEG cannot validate)
+RCK/P54,proviral,DENV ZIKV,medium,Medium_Confidence,False,,,,,False,False,N/A — functional (DEG cannot validate)
+ANKLE2,proviral,ZIKV,high,Zika_Proviral,True,-0.081,0.8574295454841943,0.127,0.874321650695175,False,False,N/A — functional (DEG cannot validate)
+AP2S1,proviral,ZIKV,high,Zika_Proviral,True,0.511,0.1208261838580658,-0.759,0.028650721416137,False,False,N/A — functional (DEG cannot validate)
+ARF4,proviral,ZIKV,high,Zika_Proviral,True,-0.121,0.8009330220663377,0.103,0.8571629256162484,False,False,N/A — functional (DEG cannot validate)
+ARF5,proviral,ZIKV,high,Zika_Proviral,True,-0.228,0.4729418945875301,-0.114,0.8245597274263423,False,False,N/A — functional (DEG cannot validate)
+ATL1,proviral,ZIKV,high,Zika_Proviral,True,0.127,0.9528000398608044,-0.804,0.8065347559197815,False,False,N/A — functional (DEG cannot validate)
+ATL2,proviral,ZIKV,high,Zika_Proviral,True,-1.054,0.0027893492910979,0.548,0.2739311334512196,False,False,N/A — functional (DEG cannot validate)
+ATL3,proviral,ZIKV,high,Zika_Proviral,True,-0.171,0.5945434763063582,-0.142,0.784834265519741,False,False,N/A — functional (DEG cannot validate)
+ATP6V0B,proviral,ZIKV,high,Zika_Proviral,True,0.471,0.0520259909287063,-0.117,0.8228899052801686,False,False,N/A — functional (DEG cannot validate)
+ATP6V1C1,proviral,ZIKV,high,Zika_Proviral,True,-0.173,0.6975746626445438,0.565,0.111556540274754,False,False,N/A — functional (DEG cannot validate)
+ATP6V1F,proviral,ZIKV,high,Zika_Proviral,True,0.482,0.0374257200604656,-0.305,0.4000407468126091,True,False,N/A — functional (DEG cannot validate)
+AXL,proviral,ZIKV,high,Zika_Proviral,True,1.559,,-0.624,,False,False,N/A — functional (DEG cannot validate)
+B3GALT6,proviral,ZIKV,high,Zika_Proviral,True,-0.016,0.9769031443685632,-0.384,0.4375481368772158,False,False,N/A — functional (DEG cannot validate)
+BSG,proviral,ZIKV,high,Zika_Proviral,True,-0.216,0.5303221647562818,-0.192,0.6767315981495903,False,False,N/A — functional (DEG cannot validate)
+CD209,proviral,ZIKV,medium,Medium_Confidence,False,,,,,False,False,N/A — functional (DEG cannot validate)
+CD300A,proviral,ZIKV,high,Zika_Proviral,True,-3.077,,0.016,,False,False,N/A — functional (DEG cannot validate)
+CEND1,proviral,ZIKV,high,Zika_Proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+CHP1,proviral,ZIKV,high,Zika_Proviral,True,0.458,0.0937487935860306,-0.221,0.7470001480373811,False,False,N/A — functional (DEG cannot validate)
+CLN6,proviral,ZIKV,high,Zika_Proviral,True,0.18,0.6991423239609708,-0.591,0.2181394817468086,False,False,N/A — functional (DEG cannot validate)
+DC-SIGN,proviral,ZIKV,medium,Medium_Confidence,False,,,,,False,False,N/A — functional (DEG cannot validate)
+DDOST,proviral,ZIKV,high,Zika_Proviral,True,0.352,0.2409363205482076,0.119,0.8195420772627757,False,False,N/A — functional (DEG cannot validate)
+DGAT2,proviral,ZIKV,high,Zika_Proviral,True,-1.022,0.0035069015815425,-0.544,0.270809131066856,False,False,N/A — functional (DEG cannot validate)
+DHCR7,proviral,ZIKV,high,Zika_Proviral,True,-0.466,0.06044558611903,0.111,0.8339369474231784,False,False,N/A — functional (DEG cannot validate)
+DNAJC1,proviral,ZIKV,high,Zika_Proviral,True,0.653,0.0955228758279089,0.079,0.9407422434288388,False,False,N/A — functional (DEG cannot validate)
+EMC1,proviral,ZIKV,high,Zika_Proviral,True,-0.279,0.4413253455314415,0.348,0.4252962719519425,False,False,N/A — functional (DEG cannot validate)
+EMC2,proviral,ZIKV,high,Zika_Proviral,True,-0.027,0.964219736212814,0.591,0.1610698520948385,False,False,N/A — functional (DEG cannot validate)
+EMC3,proviral,ZIKV,high,Zika_Proviral,True,0.434,0.1051937679184909,-0.244,0.5630464285128709,False,False,N/A — functional (DEG cannot validate)
+EMC4,proviral,ZIKV,high,Zika_Proviral,True,0.138,0.6598240631404859,-0.101,0.8673281744694198,False,False,N/A — functional (DEG cannot validate)
+EMC5,proviral,ZIKV,high,Zika_Proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+EMC6,proviral,ZIKV,high,Zika_Proviral,True,-0.193,0.542665363566879,-0.126,0.8382398755708944,False,False,N/A — functional (DEG cannot validate)
+EMC7,proviral,ZIKV,high,Zika_Proviral,True,0.721,0.0053373914666301,-0.459,0.206920768601506,True,False,N/A — functional (DEG cannot validate)
+EXT1,proviral,ZIKV,high,Zika_Proviral,True,-0.219,0.638442411332843,0.358,0.4179221471035763,False,False,N/A — functional (DEG cannot validate)
+EXTL3,proviral,ZIKV,high,Zika_Proviral,True,-0.101,0.8805580055631026,0.168,0.8894188566324439,False,False,N/A — functional (DEG cannot validate)
+FASN,proviral,ZIKV,high,Zika_Proviral,True,0.137,0.7487602695402459,-0.742,0.056265645547916,False,False,N/A — functional (DEG cannot validate)
+FATP2,proviral,ZIKV,high,Zika_Proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+GAS6,proviral,ZIKV,high,Zika_Proviral,True,0.174,,-5.142,,False,False,N/A — functional (DEG cannot validate)
+HAVCR1,proviral,ZIKV,high,Zika_Proviral,True,0.07,0.9134883581592246,-0.28,0.617952569625305,False,False,N/A — functional (DEG cannot validate)
+ISG15,proviral,ZIKV,high,Zika_Proviral,True,1.411,9.53321506679398e-10,-0.056,0.9537707742606394,True,False,N/A — functional (DEG cannot validate)
+ITGB5,proviral,ZIKV,high,Zika_Proviral,True,-0.225,0.5208223936832496,0.009,0.9903552293345184,False,False,N/A — functional (DEG cannot validate)
+KPNA6,proviral,ZIKV,high,Zika_Proviral,True,0.099,0.7907039581565151,-0.171,0.7685731118853188,False,False,N/A — functional (DEG cannot validate)
+LY6E,proviral,ZIKV,medium,Medium_Confidence,True,1.332,,-0.843,,False,False,N/A — functional (DEG cannot validate)
+MSI1,proviral,ZIKV,high,Zika_Proviral,True,-0.438,0.511195887557411,-0.868,0.3663641763597305,False,False,N/A — functional (DEG cannot validate)
+NCAM1,proviral,ZIKV,high,Zika_Proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+NDST1,proviral,ZIKV,high,Zika_Proviral,True,-0.242,0.6451368861718679,-0.017,0.9890898751904876,False,False,N/A — functional (DEG cannot validate)
+PIM1,proviral,ZIKV,high,Zika_Proviral,True,0.622,0.2874023153845297,0.474,0.7227831046631321,False,False,N/A — functional (DEG cannot validate)
+RAB4A,proviral,ZIKV,high,Zika_Proviral,True,-0.294,0.265752022552148,0.101,0.8567920631925123,False,False,N/A — functional (DEG cannot validate)
+RAB5C,proviral,ZIKV,high,Zika_Proviral,True,0.041,0.9430047123928788,-0.58,0.1082626222230798,False,False,N/A — functional (DEG cannot validate)
+RABGEF1,proviral,ZIKV,high,Zika_Proviral,True,0.385,0.3092477378357468,0.01,0.9907176769944278,False,False,N/A — functional (DEG cannot validate)
+RACK1,proviral,ZIKV,high,Zika_Proviral,True,0.251,0.3521667609204653,-0.214,0.5805985617833181,False,False,N/A — functional (DEG cannot validate)
+RBFOX2,proviral,ZIKV,high,Zika_Proviral,True,0.161,0.6875553595086971,0.029,0.971929356182969,False,False,N/A — functional (DEG cannot validate)
+RHOV,proviral,ZIKV,high,Zika_Proviral,True,1.076,,1.875,0.3777756656068328,False,False,N/A — functional (DEG cannot validate)
+RNASEK,proviral,ZIKV,high,Zika_Proviral,True,0.125,0.7578848847195441,-0.075,0.9270326999384144,False,False,N/A — functional (DEG cannot validate)
+RPN1,proviral,ZIKV,high,Zika_Proviral,True,0.146,0.7067065832781353,0.244,0.5503448340709202,False,False,N/A — functional (DEG cannot validate)
+RPN2,proviral,ZIKV,high,Zika_Proviral,True,0.252,0.3845585497692333,0.175,0.6845245547389766,False,False,N/A — functional (DEG cannot validate)
+RRBP1,proviral,ZIKV,high,Zika_Proviral,True,1.07,0.0001791586782429,-1.26,2.0023118028741075e-05,True,False,N/A — functional (DEG cannot validate)
+SEC61,proviral,ZIKV,high,Zika_Proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+SEC63,proviral,ZIKV,high,Zika_Proviral,True,0.471,0.1802189786940916,0.416,0.2910703055306927,False,False,N/A — functional (DEG cannot validate)
+SLC35B2,proviral,ZIKV,high,Zika_Proviral,True,-0.298,0.3289307430294861,-0.247,0.6405377053521334,False,False,N/A — functional (DEG cannot validate)
+SLC35B3,proviral,ZIKV,high,Zika_Proviral,True,-0.034,0.9463844766265328,0.227,0.6736782397156792,False,False,N/A — functional (DEG cannot validate)
+SOCS3,proviral,ZIKV,high,Zika_Proviral,True,0.469,0.625283965220143,0.301,0.8885610512566492,False,False,N/A — functional (DEG cannot validate)
+SOX2,proviral,ZIKV,high,Zika_Proviral,True,-0.766,,0.183,,False,False,N/A — functional (DEG cannot validate)
+SPCS1,proviral,ZIKV,high,Zika_Proviral,True,0.14,0.7042976261260306,-0.024,0.9745391981476264,False,False,N/A — functional (DEG cannot validate)
+SPTLC1,proviral,ZIKV,high,Zika_Proviral,True,-0.505,0.080988275220913,0.522,0.1314771479283574,False,False,N/A — functional (DEG cannot validate)
+SSR2,proviral,ZIKV,high,Zika_Proviral,True,0.309,0.303395528305493,-0.203,0.6757556237172356,False,False,N/A — functional (DEG cannot validate)
+SSR3,proviral,ZIKV,high,Zika_Proviral,True,0.673,0.1020739384392172,0.321,0.4487881792878456,False,False,N/A — functional (DEG cannot validate)
+STAM,proviral,ZIKV,high,Zika_Proviral,True,-0.443,0.238984866715523,0.361,0.6192426252903075,False,False,N/A — functional (DEG cannot validate)
+STT3A,proviral,ZIKV,high,Zika_Proviral,True,-0.029,0.9515347964682594,0.243,0.5380846024897377,False,False,N/A — functional (DEG cannot validate)
+STT3B,proviral,ZIKV,high,Zika_Proviral,True,-0.358,0.2299181804875902,0.213,0.6347067972540853,False,False,N/A — functional (DEG cannot validate)
+SULF1,proviral,ZIKV,high,Zika_Proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+TAZ,proviral,ZIKV,high,Zika_Proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+TIM-1,proviral,ZIKV,high,Zika_Proviral,False,,,,,False,False,N/A — functional (DEG cannot validate)
+TMEM41B,proviral,ZIKV,high,Zika_Proviral,True,0.041,0.9444271755250204,0.355,0.362686041481581,False,False,N/A — functional (DEG cannot validate)
+TRIM7,proviral,ZIKV,medium,Medium_Confidence,True,-0.479,,-2.507,,False,False,N/A — functional (DEG cannot validate)
+VIM,proviral,ZIKV,high,Zika_Proviral,True,0.143,0.7564650548711805,0.257,0.5582017043014048,False,False,N/A — functional (DEG cannot validate)
+VMA21,proviral,ZIKV,high,Zika_Proviral,True,0.035,0.944562445571416,-0.412,0.4113718535846128,False,False,N/A — functional (DEG cannot validate)
+VMP1,proviral,ZIKV,high,Zika_Proviral,True,0.084,0.8128211655364983,0.063,0.9266158356066186,False,False,N/A — functional (DEG cannot validate)
+WWTR1,proviral,ZIKV,high,Zika_Proviral,True,0.401,0.4508647357982927,-0.107,0.9389517539767466,False,False,N/A — functional (DEG cannot validate)
+ZSWIM8,proviral,ZIKV,high,Zika_Proviral,True,0.777,0.0582399027647342,0.126,0.9238861690488352,False,False,N/A — functional (DEG cannot validate)

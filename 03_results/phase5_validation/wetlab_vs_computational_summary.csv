@@ -1,0 +1,3 @@
+category,n_genes,detected_in_scRNAseq,sig_UP_either_virus,pct_up_of_detected
+antiviral,75,44,12,27.3
+proviral,120,96,6,6.2
