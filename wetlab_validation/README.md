@@ -22,6 +22,74 @@ Curated combined list: **170 rows** = 97 proviral + 48 antiviral + 25 medium-con
 - **Figure_GATE_G6_Validation** — overall validation gate summary.
 - **barplot_wetlab_overlaps** — per-list overlap counts.
 
+## Per-virus DEG ∩ wetlab volcano plots (added 2026-06-21)
+
+Volcano plots of each virus's full DEG set with the genes that **also appear in that
+virus's wetlab host-factor list** highlighted and labelled (red = wetlab antiviral,
+blue = wetlab proviral). Thresholds: `padj < 0.05` & `|log2FC| ≥ 1`.
+
+### DENV — 5 common genes (of 527 DEGs ∩ 55 wetlab DENV symbols)
+![DENV DEGs vs wetlab overlap](volcano_DENV_wetlab_overlap.png)
+
+| Gene | Wetlab role | log2FC | padj | Direction |
+|---|---|---|---|---|
+| IFI6 | antiviral | +2.12 | 9.2×10⁻⁷ | UP |
+| RETREG1 | antiviral | +2.08 | 1.8×10⁻⁵ | UP |
+| IFITM1 | antiviral | +2.07 | 0.037 | UP |
+| IFITM3 | antiviral | +1.26 | 8.9×10⁻⁷ | UP |
+| DGAT2 | proviral | −1.02 | 3.5×10⁻³ | DOWN |
+
+All 4 antiviral matches are upregulated (DENV induces ISGs); the single proviral match is down.
+Table: `common_DENV_DEG_vs_wetlab.csv`.
+
+### ZIKV — 1 common gene (of 176 DEGs ∩ 108 wetlab ZIKV symbols)
+![ZIKV DEGs vs wetlab overlap](volcano_ZIKV_wetlab_overlap.png)
+
+| Gene | Wetlab role | log2FC | padj | Direction |
+|---|---|---|---|---|
+| RRBP1 | proviral | −1.26 | 2.0×10⁻⁵ | DOWN |
+
+ZIKV overlap is much weaker (1 vs DENV's 5): it produced fewer/weaker DEGs and its antiviral
+ISGs never crossed significance (76 wetlab ZIKV genes were detected but did not pass the cutoff).
+Table: `common_ZIKV_DEG_vs_wetlab.csv`.
+
+## Per-virus DEG ∩ FULL wetlab union (128 genes) volcano plots (added 2026-06-21)
+
+Same volcanoes, but each virus's DEGs are intersected against the **combined 128-gene wetlab
+union** (all 5 sheets = the green circle in `Figure_SharedGenes_vs_Wetlab_Venn.png`), not just
+the virus-specific list. Because the 128 set includes genes curated under the *other* virus's
+sheets, DENV now also picks up classic ISGs (MX1, ISG15) curated on the ZIKV antiviral sheet.
+
+### DENV — 9 common genes (of 527 DEGs ∩ 128 wetlab union)
+![DENV DEGs vs 128 wetlab union](volcano_DENV_vs_wetlab128_overlap.png)
+
+| Gene | Wetlab role | log2FC | padj | Direction |
+|---|---|---|---|---|
+| MX1 | antiviral | +4.82 | 1.8×10⁻³ | UP |
+| IFI6 | antiviral | +2.12 | 9.2×10⁻⁷ | UP |
+| RETREG1 | antiviral | +2.08 | 1.8×10⁻⁵ | UP |
+| IFITM1 | antiviral | +2.07 | 0.037 | UP |
+| ISG15 | antiviral | +1.41 | 9.5×10⁻¹⁰ | UP |
+| IFITM3 | antiviral | +1.26 | 8.9×10⁻⁷ | UP |
+| RRBP1 | proviral | +1.07 | 1.8×10⁻⁴ | UP |
+| DGAT2 | proviral | −1.02 | 3.5×10⁻³ | DOWN |
+| ATL2 | proviral | −1.05 | 2.8×10⁻³ | DOWN |
+
+All 6 antiviral matches are upregulated; proviral are mixed. Table: `common_DENV_DEG_vs_wetlab128.csv`.
+
+### ZIKV — 1 common gene (of 176 DEGs ∩ 128 wetlab union)
+![ZIKV DEGs vs 128 wetlab union](volcano_ZIKV_vs_wetlab128_overlap.png)
+
+| Gene | Wetlab role | log2FC | padj | Direction |
+|---|---|---|---|---|
+| RRBP1 | proviral | −1.26 | 2.0×10⁻⁵ | DOWN |
+
+ZIKV stays at 1 even against the full 128 — confirming its weak/borderline DEG signal.
+Table: `common_ZIKV_DEG_vs_wetlab128.csv`.
+
+*Note: the 128 union is exact (raw symbols); matching expands gene aliases (e.g. `BST2 (Tetherin)`
+→ BST2 + TETHERIN, 145 match keys) so genes like MX1/ISG15 are not missed.*
+
 ## Key finding
 Two different "DEG" definitions tell two different stories — both are correct:
 

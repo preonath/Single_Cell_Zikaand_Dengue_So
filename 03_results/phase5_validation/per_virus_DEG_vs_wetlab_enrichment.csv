@@ -1,0 +1,13 @@
+virus,deg_set,wetlab_list,n_deg,overlap,fold_enrichment,fisher_p,significant,overlap_genes
+DENV,up,antiviral,282,5,20.89,2.369397436551532e-05,True,IFI6; IFITM1; IFITM3; ISG15; MX1
+DENV,down,antiviral,216,0,0.0,1.0,False,
+DENV,all,antiviral,498,5,11.83,0.0003431971952886816,True,IFI6; IFITM1; IFITM3; ISG15; MX1
+DENV,up,proviral,282,2,2.37,0.23902489062209417,False,ISG15; RRBP1
+DENV,down,proviral,216,2,3.09,0.15997421635091974,False,ATL2; DGAT2
+DENV,all,proviral,498,4,2.68,0.08273905661211438,False,ATL2; DGAT2; ISG15; RRBP1
+ZIKV,up,antiviral,64,0,0.0,1.0,False,
+ZIKV,down,antiviral,106,0,0.0,1.0,False,
+ZIKV,all,antiviral,170,0,0.0,1.0,False,
+ZIKV,up,proviral,64,0,0.0,1.0,False,
+ZIKV,down,proviral,106,1,2.98,0.3106407414682681,False,RRBP1
+ZIKV,all,proviral,170,1,1.86,0.44981507679841354,False,RRBP1
